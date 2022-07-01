@@ -11,6 +11,7 @@ From https://github.com/github/government.github.com/blob/gh-pages/_data/governm
 - [nims-dpfc](https://github.com/nims-dpfc)
 - [wakayama-pref-org](https://github.com/wakayama-pref-org)
 
+https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api
 
 ## Ministry Websites
 
