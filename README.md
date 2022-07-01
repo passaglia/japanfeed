@@ -1,6 +1,18 @@
 # open-data-japan
 Places to look for Japanese government datasets.
 
+## Data portals
+
+- [e-Stat Portal Site](https://www.e-stat.go.jp/whats-new)
+- [Tokyo Open Data Catalog](https://portal.data.metro.tokyo.lg.jp/news/)
+
+
+## Ministry and Program Websites
+
+- [Furusato Nouzei Homepage](https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/archive/)
+
+
+
 ## Github accounts of Japanese government entities
 From https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml#L340
 
@@ -13,8 +25,3 @@ From https://github.com/github/government.github.com/blob/gh-pages/_data/governm
 
 
 <!-- Eventually I want to check these using https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api -->
-
-## Ministry Websites
-
-- [Ministry of Internal Affairs Furusato Nouzei Materials](https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/archive/)
-
