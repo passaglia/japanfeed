@@ -9,7 +9,6 @@ $PORTALS$
 
 $WEBSITES$
 
-
 ## Github accounts of Japanese government entities
 From https://github.com/github/government.github.com/blob/gh-pages/_data/governments.yml#L340
 

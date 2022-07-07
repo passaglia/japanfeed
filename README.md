@@ -9,8 +9,8 @@ Places to look for Japanese government datasets.
 
 ## Ministry and Program Websites
 
-- [Furusato Nouzei Homepage](https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/archive/)
-
+- [Lonely deaths in Tokyo]( https://www.fukushihoken.metro.tokyo.lg.jp/kansatsu/kodokushitoukei/index.html)
+- [Furusato Nouzei Homepage]( https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/archive/)
 
 
 ## Github accounts of Japanese government entities

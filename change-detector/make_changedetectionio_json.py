@@ -39,7 +39,7 @@ for index, row in portals_df.iterrows():
         print(row['url'])
         entry = {
             'url': row['url'],
-            'tag': 'website',
+            'tag': 'portal site',
             'title': row['name']
         }
         new_id = str(uuid.uuid4())
