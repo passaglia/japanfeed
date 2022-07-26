@@ -8,6 +8,8 @@ uuid.uuid4()
 GITHUB_FILE = '../lists/githubs.csv'
 WEBSITES_FILE = '../lists/websites.csv'
 PORTALS_FILE = '../lists/portals.csv'
+PUBLICATIONS_FILE = '../lists/publications.csv'
+
 JSON_FILE = './data/url-watches.json'
 
 with open(JSON_FILE) as f:
@@ -39,7 +41,20 @@ for index, row in portals_df.iterrows():
         print(row['url'])
         entry = {
             'url': row['url'],
-            'tag': 'portal site',
+            'tag': 'portal',
+            'title': row['name']
+        }
+        new_id = str(uuid.uuid4())
+        json_dict['watching'][new_id] = entry
+
+publications_df = pandas.read_csv(PUBLICATIONS_FILE)
+entry_list = []
+for index, row in publications_df.iterrows():
+    if row['url'] not in tracked_urls:
+        print(row['url'])
+        entry = {
+            'url': row['url'],
+            'tag': 'publication',
             'title': row['name']
         }
         new_id = str(uuid.uuid4())
