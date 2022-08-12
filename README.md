@@ -28,6 +28,12 @@ From https://github.com/github/government.github.com/blob/gh-pages/_data/governm
 ## Publications
 
 - [Cabinet Office's Economic and Social Research Journal](https://www.esri.cao.go.jp/jp/esri/esr/backnumber.html)
+- [MOF PRI Financial Review Journal](https://www.mof.go.jp/pri/publication/financial_review/index.htm)
+- [MOF PRI Discussion Papers](https://www.mof.go.jp/pri/research/discussion_paper/index.htm)
+- [MOF PRI Staff Report](https://www.mof.go.jp/pri/publication/research_paper_staff_report/index.htm)
+- [MOF PRI Public Policy Review](https://www.mof.go.jp/english/pri/publication/pp_review/index.htm)
+- [MOF PRI Conferences](https://www.mof.go.jp/pri/research/conference/index.htm)
+- [METI Press Releases](https://www.meti.go.jp/press/index.html)
 
 
 

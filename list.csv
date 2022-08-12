@@ -1,0 +1,25 @@
+name,url,tag
+# githubs
+city-of-kobe,https://github.com/city-of-kobe/,github
+codefornamie,https://github.com/codefornamie,github
+gsi-cyberjapan,https://github.com/gsi-cyberjapan,github
+nhohq,https://github.com/nhohq,github
+nims-dpfc,https://github.com/nims-dpfc,github
+wakayama-pref-org,https://github.com/wakayama-pref-org,github
+# portals
+e-Stat Portal Site,https://www.e-stat.go.jp/whats-new,portal
+Tokyo Open Data Catalog,https://portal.data.metro.tokyo.lg.jp/news/,portal
+# publications
+Cabinet Office's Economic and Social Research Journal,https://www.esri.cao.go.jp/jp/esri/esr/backnumber.html,publication
+MOF PRI Financial Review Journal,https://www.mof.go.jp/pri/publication/financial_review/index.htm,publication
+MOF PRI Discussion Papers,https://www.mof.go.jp/pri/research/discussion_paper/index.htm,publication
+MOF PRI Staff Report,https://www.mof.go.jp/pri/publication/research_paper_staff_report/index.htm,publication
+MOF PRI Public Policy Review,https://www.mof.go.jp/english/pri/publication/pp_review/index.htm,publication
+MOF PRI Conferences,https://www.mof.go.jp/pri/research/conference/index.htm,publication
+METI Press Releases,https://www.meti.go.jp/press/index.html,publication
+# websites
+Lonely deaths in Tokyo,https://www.fukushihoken.metro.tokyo.lg.jp/kansatsu/kodokushitoukei/index.html,website
+Furusato Nouzei Homepage,https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/archive/,website
+National Police Stats,https://www.npa.go.jp/publications/statistics/sousa/statistics.html,website
+Local Adjustment Tax Homepage,https://www.soumu.go.jp/main_sosiki/c-zaisei/kouhu.html,website
+Tokyo Governor Expense Data,https://www.metro.tokyo.lg.jp/tosei/governor/governor/kosaihi/index.html,website
