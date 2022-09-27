@@ -12,8 +12,15 @@ From https://github.com/github/government.github.com/blob/gh-pages/_data/governm
 
 $github$
 <!-- Eventually I want to check these using https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api -->
+## Financial Timeseries
+
+$timeseries$
 ## Publications
 
 $publication$
+## Aggregators
+
+$aggregator$
+
 
 

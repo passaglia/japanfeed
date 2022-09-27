@@ -25,6 +25,10 @@ From https://github.com/github/government.github.com/blob/gh-pages/_data/governm
 - [wakayama-pref-org](https://github.com/wakayama-pref-org)
 
 <!-- Eventually I want to check these using https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api -->
+## Financial Timeseries
+
+- [Bank Of Japan Timeseries](https://www.stat-search.boj.or.jp/index_en.html)
+
 ## Publications
 
 - [Cabinet Office's Economic and Social Research Journal](https://www.esri.cao.go.jp/jp/esri/esr/backnumber.html)
@@ -34,6 +38,12 @@ From https://github.com/github/government.github.com/blob/gh-pages/_data/governm
 - [MOF PRI Public Policy Review](https://www.mof.go.jp/english/pri/publication/pp_review/index.htm)
 - [MOF PRI Conferences](https://www.mof.go.jp/pri/research/conference/index.htm)
 - [METI Press Releases](https://www.meti.go.jp/press/index.html)
+- [Nomura Research](https://www.nri.com/jp/knowledge/blog/lst?showall=True)
+
+## Aggregators
+
+- [Keisai Report Watcher](http://www3.keizaireport.com/)
+
 
 
 
