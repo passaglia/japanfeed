@@ -39,6 +39,7 @@ From https://github.com/github/government.github.com/blob/gh-pages/_data/governm
 - [MOF PRI Conferences](https://www.mof.go.jp/pri/research/conference/index.htm)
 - [METI Press Releases](https://www.meti.go.jp/press/index.html)
 - [Nomura Research](https://www.nri.com/jp/knowledge/blog/lst?showall=True)
+- [JRI Reports](https://www.jri.co.jp/report/year/)
 
 ## Aggregators
 

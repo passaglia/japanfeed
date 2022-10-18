@@ -18,12 +18,16 @@ MOF PRI Public Policy Review,https://www.mof.go.jp/english/pri/publication/pp_re
 MOF PRI Conferences,https://www.mof.go.jp/pri/research/conference/index.htm,publication
 METI Press Releases,https://www.meti.go.jp/press/index.html,publication
 Nomura Research,https://www.nri.com/jp/knowledge/blog/lst?showall=True,publication
+JRI Reports,https://www.jri.co.jp/report/year/,publication
 # websites
 Lonely deaths in Tokyo,https://www.fukushihoken.metro.tokyo.lg.jp/kansatsu/kodokushitoukei/index.html,website
 Furusato Nouzei Homepage,https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/archive/,website
 National Police Stats,https://www.npa.go.jp/publications/statistics/sousa/statistics.html,website
 Local Adjustment Tax Homepage,https://www.soumu.go.jp/main_sosiki/c-zaisei/kouhu.html,website
 Tokyo Governor Expense Data,https://www.metro.tokyo.lg.jp/tosei/governor/governor/kosaihi/index.html,website
+Tankan Economic Survey,https://www.boj.or.jp/statistics/tk/index.htm/,website
+Cabinet Office,https://www.cao.go.jp/index.html,website
+Kantei,https://www.kantei.go.jp/,website
 # timeseries
 Bank Of Japan Timeseries,https://www.stat-search.boj.or.jp/index_en.html,timeseries
 # aggregators

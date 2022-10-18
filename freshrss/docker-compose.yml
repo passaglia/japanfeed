@@ -1,0 +1,25 @@
+version: "2.4"
+
+volumes:
+  data:
+  extensions:
+
+services:
+
+  freshrss:
+    image: freshrss/freshrss
+    container_name: freshrss
+    hostname: freshrss
+    restart: unless-stopped
+    logging:
+      options:
+        max-size: 10m
+    volumes:
+      - data:/var/www/FreshRSS/data
+      - extensions:/var/www/FreshRSS/extensions
+    ports:
+      # If you want to open a port 8080 on the local machine:
+      - "8080:80"
+    environment:
+      TZ: Asia/Tokyo
+      CRON_MIN: '3,33'
