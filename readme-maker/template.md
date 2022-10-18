@@ -2,6 +2,7 @@
 Places to look for Japanese government datasets and news.
 
 # - TODO: Split the sites between those with an rss feed and those without. For those without, generate rss feed with change-detector. Then load all into freshrss. 
+# - TODO: Switch change-detector to docker version
 
 ## Data portals
 
