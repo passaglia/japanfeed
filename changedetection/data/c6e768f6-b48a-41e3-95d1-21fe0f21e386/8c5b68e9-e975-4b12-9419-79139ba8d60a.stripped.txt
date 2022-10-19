@@ -1,0 +1,107 @@
+        Beginners' Manual JAPANESE
+
+    BOJ's main statistical data
+
+      Key figures at a glance
+
+      * 
+      * 
+      * 
+      * 
+      * 
+      * 
+
+      BOJ's main time-series statistics
+
+        List of main time-series statistics
+        * Interest Rates on Deposits and Loans
+            + Basic Loan Rate[Daily] [Monthly]
+            + Average Interest Rates Posted at Financial Institutions by Type of Deposit[Monthly]
+            + Average Contracted Interest Rates on Loans and Discounts[Monthly]
+        * Financial Markets
+            + Call Rates[Daily] [Monthly]
+            + Foreign Exchange Rate(Tokyo Market Interbank Rates)[Daily] [Monthly]
+            + Effective Exchange Rates[Monthly]
+        * Money and Deposits
+            + Monetary Base/Average Amounts Outstanding[Monthly]
+            + Money Stock[Monthly]
+        * Loans
+            + Deposits, Vault Cash, and Loans and Bills Discounted[Monthly]
+            + Principal Figures of Financial Institutions[Monthly]
+        * Balance Sheets of the Bank of Japan and Financial Institutions
+            + Principal Accounts/percentage changes from the previous year(Domestically Licensed Banks)[Monthly]
+        * Flow of Funds
+            + Households Financial Assets(Flow of Funds Accounts)[Quarterly]
+        * TANKAN
+            + TANKAN/Judgement Survey/Business Conditions[Quarterly]
+            + TANKAN/Judgement Survey/Domestic Supply & Demand Conditions[Quarterly]
+            + TANKAN/Judgement Survey/Change in Output Prices[Quarterly]
+            + TANKAN/Judgement Survey/Change in Input Prices[Quarterly]
+            + TANKAN/Judgement Survey/Production Capacity[Quarterly]
+            + TANKAN/Judgement Survey/Employment Conditions[Quarterly]
+            + TANKAN/Judgement Survey/Financial Position[Quarterly]
+            + TANKAN/Judgement Survey/Lending Attitude[Quarterly]
+            + TANKAN/Annual Projections/Fixed Investment[Fiscal Year]
+            + TANKAN/Annual Projections/Current Profits[Fiscal Year]
+        * Prices
+            + Corporate Goods Price Index(CGPI)[Monthly]
+            + Services Producer Price Index(SPPI)[Monthly]
+        * Balance of Payments
+            + Balance of Payments[Monthly]
+
+    "BOJ's main time-series statistics" is updated three times on each business day at around 9:00, 12:00, and 15:00 JST. If you wish to obtain the latest data immediately after the release and before these update times, please find them through the "search by statistics" below.
+
+    Statistical data search
+
+      Search by statistics
+
+        Statistics List
+      * Interest Rates on Deposits and Loans
+      * Financial Markets
+      * Payment and Settlement
+      * Money and Deposits
+      * Loans
+      * Balance Sheets of the Bank of Japan and Financial Institutions
+      * Flow of Funds
+      * Other Bank of Japan Statistics
+      * TANKAN
+      * Prices
+      * Public Finance
+      * Balance of Payments and BIS-Related Statistics
+      * Others
+
+      : Relevant statistics page (in Bank of Japan's website) : Notes (in Bank of Japan's website)
+
+      Search by statistical category and name of series
+
+        Search among all time-series data
+    By name of series
+
+      Search by exact series codes
+
+        Search among all time-series data
+    By exact series codes
+
+      Prices,FOF,TANKAN,Balance of Payments, and BIS-Related Statistics ― Flat Files Download
+
+    Go to Flat Files Download
+
+    Flat files of data packages become available for downloading by 10:00 JST on the day of the release of each statistics.
+
+
+
+
+
+
+
+
+      Notices
+
+      * Schedule for Releases of Statistical Data and Publications
+      * Notices of Changes and Corrections
+      * Statistics
+      * Explanations of Statistics
+      * TLS Versions 1.0 and 1.1 to Be Disabled for Encrypted Communication on the Bank's Website
+          Quick guidance for time-series search Notices Contact Site Map
+          Bank of Japan's website
+    Copyright Bank of Japan All Rights Reserved.

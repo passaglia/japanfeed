@@ -1,34 +1,32 @@
-name,url,tag
+name,url,rss,tag
 # githubs
-city-of-kobe,https://github.com/city-of-kobe/,github
-codefornamie,https://github.com/codefornamie,github
-gsi-cyberjapan,https://github.com/gsi-cyberjapan,github
-nhohq,https://github.com/nhohq,github
-nims-dpfc,https://github.com/nims-dpfc,github
-wakayama-pref-org,https://github.com/wakayama-pref-org,github
+city-of-kobe,https://github.com/city-of-kobe/,,github
+codefornamie,https://github.com/codefornamie,,github
+gsi-cyberjapan,https://github.com/gsi-cyberjapan,,github
+nhohq,https://github.com/nhohq,,github
+nims-dpfc,https://github.com/nims-dpfc,,github
+wakayama-pref-org,https://github.com/wakayama-pref-org,,github
 # portals
-e-Stat Portal Site,https://www.e-stat.go.jp/whats-new,portal
-Tokyo Open Data Catalog,https://portal.data.metro.tokyo.lg.jp/news/,portal
+e-Stat Portal Site,https://www.e-stat.go.jp/whats-new,https://www.e-stat.go.jp/news/rss/xml?refTarget=0101&haisinType=0100&category=all,portal
+Tokyo Open Data Catalog,https://catalog.data.metro.tokyo.lg.jp/dataset,https://catalog.data.metro.tokyo.lg.jp/feeds/dataset.atom,portal
+# govnews
+Cabinet Office,https://www.cao.go.jp/index.html,https://www.cao.go.jp/rss/news.rdf,govnews
+Kantei,https://www.kantei.go.jp/,https://www.kantei.go.jp/index-jnews.rdf,govnews
+METI,https://www.meti.go.jp/press/index.html,https://www.meti.go.jp/ml_index_release_atom.xml,govnews
+Ministry of Finance,https://www.mof.go.jp,https://www.mof.go.jp/news.rss,govnews
+Ministry of Finance Policy Research Institute,https://www.mof.go.jp/pri/index.htm,,govnews
+# report aggregators
+Keisai Report Watcher,http://www3.keizaireport.com/,,aggregator
 # publications
-Cabinet Office's Economic and Social Research Journal,https://www.esri.cao.go.jp/jp/esri/esr/backnumber.html,publication
-MOF PRI Financial Review Journal,https://www.mof.go.jp/pri/publication/financial_review/index.htm,publication
-MOF PRI Discussion Papers,https://www.mof.go.jp/pri/research/discussion_paper/index.htm,publication
-MOF PRI Staff Report,https://www.mof.go.jp/pri/publication/research_paper_staff_report/index.htm,publication
-MOF PRI Public Policy Review,https://www.mof.go.jp/english/pri/publication/pp_review/index.htm,publication
-MOF PRI Conferences,https://www.mof.go.jp/pri/research/conference/index.htm,publication
-METI Press Releases,https://www.meti.go.jp/press/index.html,publication
-Nomura Research,https://www.nri.com/jp/knowledge/blog/lst?showall=True,publication
-JRI Reports,https://www.jri.co.jp/report/year/,publication
+METI Journal,https://journal.meti.go.jp/,https://meti-journal.jp/rss,publication
+Nomura Research,https://www.nri.com/jp/knowledge/blog/lst?showall=True,,publication
+JRI Reports,https://www.jri.co.jp/report/year/,https://www.jri.co.jp/xml.jsp?id=12966,publication
 # websites
-Lonely deaths in Tokyo,https://www.fukushihoken.metro.tokyo.lg.jp/kansatsu/kodokushitoukei/index.html,website
-Furusato Nouzei Homepage,https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/archive/,website
-National Police Stats,https://www.npa.go.jp/publications/statistics/sousa/statistics.html,website
-Local Adjustment Tax Homepage,https://www.soumu.go.jp/main_sosiki/c-zaisei/kouhu.html,website
-Tokyo Governor Expense Data,https://www.metro.tokyo.lg.jp/tosei/governor/governor/kosaihi/index.html,website
-Tankan Economic Survey,https://www.boj.or.jp/statistics/tk/index.htm/,website
-Cabinet Office,https://www.cao.go.jp/index.html,website
-Kantei,https://www.kantei.go.jp/,website
+Lonely deaths in Tokyo,https://www.fukushihoken.metro.tokyo.lg.jp/kansatsu/kodokushitoukei/index.html,,website
+Furusato Nouzei Homepage,https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/archive/,,website
+National Police Stats,https://www.npa.go.jp/publications/statistics/sousa/statistics.html,,website
+Local Adjustment Tax Homepage,https://www.soumu.go.jp/main_sosiki/c-zaisei/kouhu.html,,website
+Tokyo Governor Expense Data,https://www.metro.tokyo.lg.jp/tosei/governor/governor/kosaihi/index.html,,website
+Tankan Economic Survey,https://www.boj.or.jp/statistics/tk/index.htm/,,website
 # timeseries
-Bank Of Japan Timeseries,https://www.stat-search.boj.or.jp/index_en.html,timeseries
-# aggregators
-Keisai Report Watcher,http://www3.keizaireport.com/,aggregator
+Bank Of Japan Timeseries,https://www.stat-search.boj.or.jp/index_en.html,,timeseries
