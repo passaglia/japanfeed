@@ -1,8 +1,9 @@
 import pandas as pd
+import os
 
-LIST_FILE = "../list.csv"
-TEMPLATE_FILE = "./template.md"
-README_FILE = "../README.md"
+LIST_FILE = os.path.join(os.path.dirname(__file__), "../list.csv")
+TEMPLATE_FILE = os.path.join(os.path.dirname(__file__), "template.md")
+README_FILE = os.path.join(os.path.dirname(__file__), "../README.md")
 
 with open(TEMPLATE_FILE) as f:
     readme = f.read()

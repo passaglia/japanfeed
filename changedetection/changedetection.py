@@ -5,15 +5,19 @@ import json
 import subprocess
 from time import sleep
 
-LIST_FILE = "../list.csv"
+LIST_FILE = os.path.join(os.path.dirname(__file__), "../list.csv")
+DATA_FOLDER = os.path.join(os.path.dirname(__file__), "data/")
 
-DATA_FOLDER = "./data/"
 JSON_FILE = DATA_FOLDER + "url-watches.json"
 
 # if first time running
 if not os.path.exists(DATA_FOLDER):
     # run change detection once
-    bashCommand = "changedetection.io -C -d data/ -h 127.0.0.1 -p 5000"
+    bashCommand = (
+        "changedetection.io -C -d "
+        + os.path.join(os.path.dirname(__file__), "data/")
+        + " -h 127.0.0.1 -p 5000"
+    )
     process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
     sleep(5)
     # open the json file once it is created
@@ -65,12 +69,3 @@ for index, row in df.iterrows():
 
 with open(JSON_FILE, "w") as f:
     f.write(json.dumps(json_dict))
-
-# # run change detection
-# bashCommand = "changedetection.io -C -d data/ -h 127.0.0.1 -p 5000"
-# process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
-# sleep(10)
-
-# # launch chrome
-# bashCommand = """open -na "Google Chrome" --args --incognito http://127.0.0.1:5000/"""
-# process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
