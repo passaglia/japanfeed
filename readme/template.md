@@ -1,4 +1,4 @@
-# Japanese government datasets and news. 
+# Japanese government datasets and news
 
 For details see the [docs](#documentation).
 

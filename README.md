@@ -1,4 +1,4 @@
-# Japanese government datasets and news. 
+# Japanese government datasets and news
 
 For details see the [docs](#documentation).
 
@@ -55,11 +55,11 @@ Resources are stored in `list.csv`.
 
 `readme/readme.py` generates this readme. 
 
-`rss/opml.py` generates `list.opml`, which can be imported into a newsreader of your choice to follow resources with RSS feeds. `rss/run.sh` launches the [FreshRSS] newsreader (https://github.com/FreshRSS/FreshRSS) which is what I use.
+`rss/opml.py` generates `list.opml`, which can be imported into a newsreader of your choice to follow resources with RSS feeds.
 
-`changedetection/changedetection.py` loads the resources which do not have RSS feeds into a (changedetection.io)[https://github.com/dgtlmoon/changedetection.io] instance which can be run with `changedetection/run.sh` .
+`changedetection/changedetection.py` loads the resources which do not have RSS feeds into the datastructure of a (changedetection.io)[https://github.com/dgtlmoon/changedetection.io]instance.
 
-<!-- `launch.sh` runs all the above.  -->
+ `launch.sh` runs all the above and launches the [FreshRSS] newsreader (https://github.com/FreshRSS/FreshRSS) and the (changedetection.io)[https://github.com/dgtlmoon/changedetection.io] instance.
 
 <!-- - TODO:
 - 1-- Load rss feeds into fresh rss https://github.com/FreshRSS/FreshRSS/blob/edge/cli/README.md
