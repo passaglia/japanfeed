@@ -1,6 +1,6 @@
-# Japanese government datasets and news
+# open-data-japan
 
-For details see the [docs](#documentation).
+A collection of useful sources of Japanese government data and news. See the [docs](#documentation) below for some helper scripts.
 
 ## Data portals
 
@@ -59,7 +59,7 @@ Resources are stored in `list.csv`.
 
 `changedetection/changedetection.py` loads the resources which do not have RSS feeds into the datastructure of a (changedetection.io)[https://github.com/dgtlmoon/changedetection.io]instance.
 
- `launch.sh` runs all the above and launches the [FreshRSS] newsreader (https://github.com/FreshRSS/FreshRSS) and the (changedetection.io)[https://github.com/dgtlmoon/changedetection.io] instance.
+ `launch.sh` runs all the above and launches the [FreshRSS] newsreader (https://github.com/FreshRSS/FreshRSS) and a (changedetection.io)[https://github.com/dgtlmoon/changedetection.io] instance.
 
 <!-- - TODO:
 - 1-- Load rss feeds into fresh rss https://github.com/FreshRSS/FreshRSS/blob/edge/cli/README.md
