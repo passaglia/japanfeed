@@ -1,0 +1,103 @@
+  Hacker News new | past | comments | ask | show | jobs | submit  login                                                                                                   
+                                                                                                                                                                          
+
+ 1.                                                                    Traff: An open source format/service for live road traffic updates ( gitlab.com/traffxml )         
+     50 points by KoftaBob 2 hours ago | hide | 9 comments                                                                                                                
+                                                                                                                                                                          
+ 2.                                                                    Can We Control Time in Operating System Design? ( redhat.com )                                     
+     27 points by rwmj 3 hours ago | hide | discuss                                                                                                                       
+                                                                                                                                                                          
+ 3.                                                                    CarperAI announces plans for the first open-source “instruction-tuned” LM ( carper.ai )            
+     39 points by monkeydust 4 hours ago | hide | 6 comments                                                                                                              
+                                                                                                                                                                          
+ 4.                                                                    The Mystery of 355/113 (2010) ( davidbau.com )                                                     
+     153 points by LeoPanthera 10 hours ago | hide | 76 comments                                                                                                          
+                                                                                                                                                                          
+ 5.                                                                    Findings show that the Vikings' self-image was influenced by Ancient Rome ( phys.org )             
+     30 points by diodorus 4 hours ago | hide | 9 comments                                                                                                                
+                                                                                                                                                                          
+ 6.                                                                    New research suggests our brains use quantum computation ( phys.org )                              
+     31 points by wjSgoWPm5bWAhXB 1 hour ago | hide | 17 comments                                                                                                         
+                                                                                                                                                                          
+ 7.                                                                    Most people on antidepressants don’t need them ( economist.com )                                   
+     39 points by pseudolus 1 hour ago | hide | 40 comments                                                                                                               
+                                                                                                                                                                          
+ 8.                                                                    Stop Writing Dead Programs ( jackrusher.com )                                                      
+     113 points by aidenn0 8 hours ago | hide | 24 comments                                                                                                               
+                                                                                                                                                                          
+ 9.                                                                    Copilot under fire as dev claims it emits 'large chunks of my copyrighted code' ( devclass.com )   
+     15 points by redbell 56 minutes ago | hide | 7 comments                                                                                                              
+                                                                                                                                                                          
+10.                                                                    A large scale non-linear optimization library ( github.com/ceres-solver )                          
+     71 points by rch 8 hours ago | hide | 23 comments                                                                                                                    
+                                                                                                                                                                          
+11.                                                                    We're Drowning ( snarfed.org )                                                                     
+     83 points by mgrayson 11 hours ago | hide | 51 comments                                                                                                              
+                                                                                                                                                                          
+12.                                                                    Demodesk is hiring a product engineer in EU time zones ( demodesk.com )                            
+     3 hours ago | hide                                                                                                                                                   
+                                                                                                                                                                          
+13.                                                                    NASA’s Webb takes star-filled portrait of Pillars of Creation ( nasa.gov )                         
+     615 points by pizza 17 hours ago | hide | 167 comments                                                                                                               
+                                                                                                                                                                          
+14.                                                                    That Shouldn't Happen – UnreachableException in .NET 7 ( ab.bot )                                  
+     59 points by icey 10 hours ago | hide | 46 comments                                                                                                                  
+                                                                                                                                                                          
+15.                                                                    We are still early with the cloud ( erikbern.com )                                                 
+     143 points by omoindrot 12 hours ago | hide | 127 comments                                                                                                           
+                                                                                                                                                                          
+16.                                                                    Glamorous Toolkit: Moldable development environment ( gtoolkit.com )                               
+     99 points by homarp 13 hours ago | hide | 25 comments                                                                                                                
+                                                                                                                                                                          
+17.                                                                    Why modifying gravity doesn’t add up ( bigthink.com )                                              
+     82 points by raattgift 12 hours ago | hide | 80 comments                                                                                                             
+                                                                                                                                                                          
+18.                                                                    The link between August birthdays and ADHD (2018) ( nytimes.com )                                  
+     104 points by dymk 10 hours ago | hide | 107 comments                                                                                                                
+                                                                                                                                                                          
+19.                                                                    My PhD Genealogy ( stanford.edu )                                                                  
+     124 points by hkc 15 hours ago | hide | 53 comments                                                                                                                  
+                                                                                                                                                                          
+20.                                                                    AI will replace middle management before robots replace hourly workers ( chatterhead.bearblog.dev )
+     308 points by chatterhead 8 hours ago | hide | 266 comments                                                                                                          
+                                                                                                                                                                          
+21.                                                                    Pocket Casts Mobile Apps Are Now Open Source ( pocketcasts.com )                                   
+     215 points by jcgoette 10 hours ago | hide | 45 comments                                                                                                             
+                                                                                                                                                                          
+22.                                                                    Why most published research findings are false (2005) ( plos.org )                                 
+     149 points by Jimmc414 17 hours ago | hide | 76 comments                                                                                                             
+                                                                                                                                                                          
+23.                                                                    Rikuo: Harley-Davidson and the Birth of the Japanese Motorcycle (1978) ( cycleworld.com )          
+     16 points by vba616 7 hours ago | hide | 1 comment                                                                                                                   
+                                                                                                                                                                          
+24.                                                                    Wait vs. Interrupt Culture ( benjaminrosshoffman.com )                                             
+     269 points by cbracketdash 16 hours ago | hide | 201 comments                                                                                                        
+                                                                                                                                                                          
+25.                                                                    How to use a watch as a compass ( citizenwatch-global.com )                                        
+     397 points by jamesgill 17 hours ago | hide | 123 comments                                                                                                           
+                                                                                                                                                                          
+26.                                                                    Inside the Proton ( quantamagazine.org )                                                           
+     496 points by shantanu_sharma 21 hours ago | hide | 181 comments                                                                                                     
+                                                                                                                                                                          
+27.                                                                    Sound ( ciechanow.ski )                                                                            
+     2897 points by todsacerdoti 1 day ago | hide | 201 comments                                                                                                          
+                                                                                                                                                                          
+28.                                                                    The Rise of ‘Luxury Surveillance’ ( theatlantic.com )                                              
+     179 points by pseudolus 17 hours ago | hide | 178 comments                                                                                                           
+                                                                                                                                                                          
+29.                                                                    The Thoughtful Prick: On Casanova ( harpers.org )                                                  
+     16 points by pepys 7 hours ago | hide | 1 comment                                                                                                                    
+                                                                                                                                                                          
+30.                                                                    Ammonia combustion engines: latest research (2021) ( ammoniaenergy.org )                           
+     52 points by colinprince 13 hours ago | hide | 40 comments                                                                                                           
+                                                                                                                                                                          
+                                                                                                                                                                          
+     More                                                                                                                                                                 
+                                                                                                                                                                          
+                                                                                                                                                                          
+                                                                                                                                                                          
+                                                                                                                                                                          
+Applications are open for YC Winter 2023                                                                                                                                  
+Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC | Contact                                                                                                 
+                                                                                                                                                                          
+Search:                                                                                                                                                                   

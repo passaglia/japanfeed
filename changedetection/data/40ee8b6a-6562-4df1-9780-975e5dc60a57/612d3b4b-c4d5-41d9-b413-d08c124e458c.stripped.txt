@@ -1,0 +1,103 @@
+  Hacker News new | past | comments | ask | show | jobs | submit  login                                                                                            
+                                                                                                                                                                   
+
+ 1.                                                                   NASA’s Webb takes star-filled portrait of Pillars of Creation ( nasa.gov )                   
+     254 points by pizza 5 hours ago | hide | 83 comments                                                                                                          
+                                                                                                                                                                   
+ 2.                                                                   How to use a watch as a compass ( citizenwatch-global.com )                                  
+     174 points by jamesgill 5 hours ago | hide | 59 comments                                                                                                      
+                                                                                                                                                                   
+ 3.                                                                   Inside the Proton ( quantamagazine.org )                                                     
+     411 points by shantanu_sharma 9 hours ago | hide | 151 comments                                                                                               
+                                                                                                                                                                   
+ 4.                                                                   Kill Bill – Open-Source Subscription Billing and Payments Platform ( github.com/killbill )   
+     300 points by Whitespace 8 hours ago | hide | 110 comments                                                                                                    
+                                                                                                                                                                   
+ 5.                                                                   My PhD Genealogy ( stanford.edu )                                                            
+     65 points by hkc 3 hours ago | hide | 24 comments                                                                                                             
+                                                                                                                                                                   
+ 6.                                                                   Wait vs. Interrupt Culture ( benjaminrosshoffman.com )                                       
+     70 points by cbracketdash 4 hours ago | hide | 38 comments                                                                                                    
+                                                                                                                                                                   
+ 7.                                                                   Write Better Error Messages ( wix-ux.com )                                                   
+     396 points by noch 11 hours ago | hide | 208 comments                                                                                                         
+                                                                                                                                                                   
+ 8.                                                                   Replit Mobile App ( replit.com )                                                             
+     252 points by todsacerdoti 8 hours ago | hide | 128 comments                                                                                                  
+                                                                                                                                                                   
+ 9.                                                                   The Rise of ‘Luxury Surveillance’ ( theatlantic.com )                                        
+     109 points by pseudolus 5 hours ago | hide | 84 comments                                                                                                      
+                                                                                                                                                                   
+10.                                                                   Glamorous Toolkit: Moldable development environment ( gtoolkit.com )                         
+     18 points by homarp 1 hour ago | hide | discuss                                                                                                               
+                                                                                                                                                                   
+11.                                                                   Show HN: I made a new AI colorizer ( palette.fm )                                            
+     275 points by emilwallner 10 hours ago | hide | 88 comments                                                                                                   
+                                                                                                                                                                   
+12.                                                                   The smash and grab of Kroger-Albertsons ( mattstoller.substack.com )                         
+     164 points by connor11528 8 hours ago | hide | 138 comments                                                                                                   
+                                                                                                                                                                   
+13.                                                                   Why most published research findings are false (2005) ( plos.org )                           
+     92 points by Jimmc414 5 hours ago | hide | 46 comments                                                                                                        
+                                                                                                                                                                   
+14.                                                                   EasyList is in trouble and so are many ad blockers ( adguard.com )                           
+     379 points by shscs911 4 hours ago | hide | 222 comments                                                                                                      
+                                                                                                                                                                   
+15.                                                                   Ammonia Combustion Engines (2021) ( ammoniaenergy.org )                                      
+     9 points by colinprince 1 hour ago | hide | 1 comment                                                                                                         
+                                                                                                                                                                   
+16.                                                                   The Soviet Union’s Nuclear Icebreakers ( asianometry.substack.com )                          
+     66 points by picture 6 hours ago | hide | 55 comments                                                                                                         
+                                                                                                                                                                   
+17.                                                                   Part of the long-lost star catalogue of Hipparchus found in medieval parchment ( nature.com )
+     115 points by JoeDaDude 10 hours ago | hide | 28 comments                                                                                                     
+                                                                                                                                                                   
+18.                                                                   Forgotten Employee (2002) ( sites.google.com )                                               
+     166 points by tosh 9 hours ago | hide | 92 comments                                                                                                           
+                                                                                                                                                                   
+19.                                                                   Substack (YC W18) is hiring data analysts ( greenhouse.io )                                  
+     6 hours ago | hide                                                                                                                                            
+                                                                                                                                                                   
+20.                                                                   Pipe Viewer ( ivarch.com )                                                                   
+     143 points by 0x45696e6172 10 hours ago | hide | 41 comments                                                                                                  
+                                                                                                                                                                   
+21.                                                                   The Telefunken RA 770 Analog Computer ( analogmuseum.org )                                   
+     87 points by Stubb 8 hours ago | hide | 10 comments                                                                                                           
+                                                                                                                                                                   
+22.                                                                   Wargame: LaTeX package to prepare hex'n'counter wargames ( ctan.org )                        
+     128 points by ddougj 10 hours ago | hide | 23 comments                                                                                                        
+                                                                                                                                                                   
+23.                                                                   Nima Arkani-Hamed: The End of Space-Time ( youtube.com )                                     
+     31 points by peter_d_sherman 4 hours ago | hide | 5 comments                                                                                                  
+                                                                                                                                                                   
+24.                                                                   A lot of what is known about pirates is not true (2017) ( neh.gov )                          
+     85 points by Thevet 8 hours ago | hide | 37 comments                                                                                                          
+                                                                                                                                                                   
+25.                                                                   The algorithm: Mapping long-term trends and short-term change at multiple scales ( oup.com ) 
+     10 points by Hooke 2 hours ago | hide | discuss                                                                                                               
+                                                                                                                                                                   
+26.                                                                   Identity management for WireGuard ( lwn.net )                                                
+     147 points by chmaynard 10 hours ago | hide | 81 comments                                                                                                     
+                                                                                                                                                                   
+27.                                                                   A Geometrically Natural Uncomputable Function (2008) ( xorshammer.com )                      
+     6 points by yamrzou 1 hour ago | hide | discuss                                                                                                               
+                                                                                                                                                                   
+28.                                                                   Does SharePoint destroy intranet design? (2010) ( nngroup.com )                              
+     17 points by open-source-ux 3 hours ago | hide | 25 comments                                                                                                  
+                                                                                                                                                                   
+29.                                                                   Elevator Saga: Elevator programming game ( elevatorsaga.com )                                
+     150 points by homarp 14 hours ago | hide | 54 comments                                                                                                        
+                                                                                                                                                                   
+30.                                                                   Furniture as Comrade: Enzo Mari’s Autoprogettazione ( dispatchesmag.com )                    
+     52 points by anarbadalov 7 hours ago | hide | 10 comments                                                                                                     
+                                                                                                                                                                   
+                                                                                                                                                                   
+     More                                                                                                                                                          
+                                                                                                                                                                   
+                                                                                                                                                                   
+                                                                                                                                                                   
+                                                                                                                                                                   
+Applications are open for YC Winter 2023                                                                                                                           
+Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC | Contact                                                                                          
+                                                                                                                                                                   
+Search:                                                                                                                                                            

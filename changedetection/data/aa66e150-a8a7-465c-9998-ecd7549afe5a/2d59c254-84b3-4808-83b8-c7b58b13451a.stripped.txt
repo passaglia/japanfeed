@@ -1,0 +1,103 @@
+  Hacker News new | past | comments | ask | show | jobs | submit  login                                                                                                
+                                                                                                                                                                       
+
+ 1.                                                                    Illegal Jig Grinder – Charges and Arrests ( justice.gov )                                       
+     35 points by mikewarot 1 hour ago | hide | 38 comments                                                                                                            
+                                                                                                                                                                       
+ 2.                                                                    Your account is permanently suspended ( twitter.com/benthompson )                               
+     216 points by tosh 2 hours ago | hide | 137 comments                                                                                                              
+                                                                                                                                                                       
+ 3.                                                                    The Overflow Offline Project – Stack Overflow Blog ( stackoverflow.blog )                       
+     11 points by donutshop 49 minutes ago | hide | 1 comment                                                                                                          
+                                                                                                                                                                       
+ 4.                                                                    The M247/DataPacket Problem with Mullvad VPN ( worldofmatthew.com )                             
+     18 points by shelfchair 1 hour ago | hide | 7 comments                                                                                                            
+                                                                                                                                                                       
+ 5.                                                                    Traff: An open source format/service for live road traffic updates ( gitlab.com/traffxml )      
+     90 points by KoftaBob 4 hours ago | hide | 23 comments                                                                                                            
+                                                                                                                                                                       
+ 6.                                                                    Can We Control Time in Operating System Design? ( redhat.com )                                  
+     56 points by rwmj 5 hours ago | hide | 3 comments                                                                                                                 
+                                                                                                                                                                       
+ 7.                                                                    Liz Truss resigns as UK prime minister ( bbc.co.uk )                                            
+     312 points by samwillis 1 hour ago | hide | 279 comments                                                                                                          
+                                                                                                                                                                       
+ 8.                                                                    CarperAI announces plans for the first open-source “instruction-tuned” LM ( carper.ai )         
+     64 points by monkeydust 6 hours ago | hide | 11 comments                                                                                                          
+                                                                                                                                                                       
+ 9.                                                                    The Mystery of 355/113 (2010) ( davidbau.com )                                                  
+     172 points by LeoPanthera 12 hours ago | hide | 86 comments                                                                                                       
+                                                                                                                                                                       
+10.                                                                    Senior Solidity Developer at Jasmine Energy (YC S22) ( ycombinator.com )                        
+     2 hours ago | hide                                                                                                                                                
+                                                                                                                                                                       
+11.                                                                    Findings show that the Vikings' self-image was influenced by Ancient Rome ( phys.org )          
+     54 points by diodorus 7 hours ago | hide | 25 comments                                                                                                            
+                                                                                                                                                                       
+12.                                                                    Quirks, Caveats, and Gotchas in SQLite ( sqlite.org )                                           
+     15 points by thefilmore 3 hours ago | hide | 3 comments                                                                                                           
+                                                                                                                                                                       
+13.                                                                    Intel Core I9-13900K and I5-13600K Review: Raptor Lake Brings More Bite ( anandtech.com )       
+     3 points by pantalaimon 44 minutes ago | hide | 1 comment                                                                                                         
+                                                                                                                                                                       
+14.                                                                    Firefox Beta for Android now supports custom add-on collections ( ghacks.net )                  
+     55 points by Semaphor 2 hours ago | hide | 33 comments                                                                                                            
+                                                                                                                                                                       
+15.                                                                    We're Drowning ( snarfed.org )                                                                  
+     129 points by mgrayson 13 hours ago | hide | 85 comments                                                                                                          
+                                                                                                                                                                       
+16.                                                                    A large scale non-linear optimization library ( github.com/ceres-solver )                       
+     96 points by rch 11 hours ago | hide | 26 comments                                                                                                                
+                                                                                                                                                                       
+17.                                                                    Stop Writing Dead Programs ( jackrusher.com )                                                   
+     144 points by aidenn0 11 hours ago | hide | 38 comments                                                                                                           
+                                                                                                                                                                       
+18.                                                                    NASA’s Webb takes star-filled portrait of Pillars of Creation ( nasa.gov )                      
+     651 points by pizza 19 hours ago | hide | 172 comments                                                                                                            
+                                                                                                                                                                       
+19.                                                                    Ask HN: Recommend me a Blender course                                                           
+     14 points by weinzierl 2 hours ago | hide | 10 comments                                                                                                           
+                                                                                                                                                                       
+20.                                                                    New research suggests our brains use quantum computation ( phys.org )                           
+     68 points by wjSgoWPm5bWAhXB 4 hours ago | hide | 68 comments                                                                                                     
+                                                                                                                                                                       
+21.                                                                    Copilot under fire as dev claims it emits 'large chunks of my copyrighted code' ( devclass.com )
+     119 points by redbell 3 hours ago | hide | 158 comments                                                                                                           
+                                                                                                                                                                       
+22.                                                                    That Shouldn't Happen – UnreachableException in .NET 7 ( ab.bot )                               
+     65 points by icey 12 hours ago | hide | 53 comments                                                                                                               
+                                                                                                                                                                       
+23.                                                                    Pocket Casts Mobile Apps Are Now Open Source ( pocketcasts.com )                                
+     258 points by jcgoette 12 hours ago | hide | 57 comments                                                                                                          
+                                                                                                                                                                       
+24.                                                                    Amazon faces $1B lawsuit in UK for 'favouring its own products' ( reuters.com )                 
+     15 points by throwaway888abc 1 hour ago | hide | discuss                                                                                                          
+                                                                                                                                                                       
+25.                                                                    Sound ( ciechanow.ski )                                                                         
+     2933 points by todsacerdoti 1 day ago | hide | 201 comments                                                                                                       
+                                                                                                                                                                       
+26.                                                                    Wait vs. Interrupt Culture ( benjaminrosshoffman.com )                                          
+     290 points by cbracketdash 19 hours ago | hide | 216 comments                                                                                                     
+                                                                                                                                                                       
+27.                                                                    Rikuo: Harley-Davidson and the Birth of the Japanese Motorcycle (1978) ( cycleworld.com )       
+     23 points by vba616 9 hours ago | hide | 1 comment                                                                                                                
+                                                                                                                                                                       
+28.                                                                    How to use a watch as a compass ( citizenwatch-global.com )                                     
+     427 points by jamesgill 19 hours ago | hide | 137 comments                                                                                                        
+                                                                                                                                                                       
+29.                                                                    We are still early with the cloud ( erikbern.com )                                              
+     157 points by omoindrot 14 hours ago | hide | 154 comments                                                                                                        
+                                                                                                                                                                       
+30.                                                                    Inside the Proton ( quantamagazine.org )                                                        
+     510 points by shantanu_sharma 23 hours ago | hide | 185 comments                                                                                                  
+                                                                                                                                                                       
+                                                                                                                                                                       
+     More                                                                                                                                                              
+                                                                                                                                                                       
+                                                                                                                                                                       
+                                                                                                                                                                       
+                                                                                                                                                                       
+Applications are open for YC Winter 2023                                                                                                                               
+Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC | Contact                                                                                              
+                                                                                                                                                                       
+Search:                                                                                                                                                                

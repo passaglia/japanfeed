@@ -1,0 +1,1061 @@
+    _                          _     _          _   _            _     
+ __| |_  __ _ _ _  __ _ ___ __| |___| |_ ___ __| |_(_)___ _ _   (_)___ 
+/ _| ' \/ _` | ' \/ _` / -_) _` / -_)  _/ -_) _|  _| / _ \ ' \ _| / _ \
+\__|_||_\__,_|_||_\__, \___\__,_\___|\__\___\__|\__|_\___/_||_(_)_\___/
+                  |___/                                                
+
+HEAD / 2022-10-19 22:41:13 +0200:
+ - History index safety check - Be sure that only valid history index lines are read (#1042)
+ - Option to Hide the Referer header from monitored websites. (#996)
+
+0.39.20.4 / 2022-10-17 18:36:47 +0200:
+ - 0.39.20.4
+ - Better cross platform file handling in diff and preview (#1034)
+
+0.39.20.3 / 2022-10-17 17:43:35 +0200:
+ - 0.39.20.3
+ - Windows - diff file handling improvements (#1031)
+ - Also include tests in pip build
+ - Update README.md
+
+0.39.20.2 / 2022-10-12 09:53:59 +0200:
+ - 0.39.20.2
+ - Windows - JQ - Make library optional so it doesnt break Windows pip installs (#1009)
+ - Adding test - Test the 'execute JS before changedetection' (#1006)
+
+0.39.20.1 / 2022-10-09 23:05:35 +0200:
+ - 0.39.20.1
+ - Code - check containers build when Dockerfile or requirements.txt changes (#1005)
+ - Adding `make` to Dockerfile build as required by jq for ARM devices
+ - Dont use default Requests `user-agent` and `accept` headers in playwright+selenium requests, breaks sites such as united.com. (#1004)
+
+0.39.20 / 2022-10-09 16:13:32 +0200:
+ - 0.39.20
+ - Adds support for jq JSON path querying engine (#1001)
+ - Adding link to BrightData Proxy info (#1003)
+ - Remove quotationspage default watch
+ - Notification library: Bump apprise to 1.1.0 (signal, opsgenie, pagerduty, bark and mailto fixes, adds support for BulkSMS and SMSEagle) (#1002)
+ - Selenium fetcher - screenshot should be taken after 'wait' time, not before #873
+ - Upgrade Playwright to 1.26
+ - Render Extract Configurable Delay Seconds should also apply after executing any JS #958
+ - Re #958 - remove change screensize, should be in 1280x720 default, was causing "Unable to retrieve content because the page is navigating and changing the content." on some sites
+ - Tidy up proxies.json logic, adding tests (#955)
+ - Update README.md - Include BrightData suggestion
+ - Improve Proxy minimum time debug output
+ - Default proxy settings fixes
+ - Use proxies.json instead of proxies.txt - see wiki Proxies section (#945)
+ - Upgrade Playwright to 1.25
+ - Update README.md
+
+0.39.19.1 / 2022-09-11 09:23:43 +0200:
+ - 0.39.19.1
+ - Notification - code tidyup
+ - Watch list & notification - Adding extra list batch operations for Mute, Unmute, Reset-to-default
+ - Notification - Reset defaults button should be on edit page only
+ - Notification watch settings - add button to make watch use defaults (empties the settings)
+ - Notification system update - set watch to use defaults if it is the same as the default
+ - Fix typo (#924)
+
+0.39.19 / 2022-09-08 20:16:35 +0200:
+ - 0.39.19
+ - Update README.md
+ - Tweaks to python PIP readme
+ - Use play and pause separate icons (#919)
+ - Further notification settings refinement (#910)
+ - Reliability improvement - Check watch UUID exists when reporting missing path (#915)
+ - repair pip readme
+ - Test improvement - Visual selector data loads as JSON (#895)
+ - Cleaner separation of watch/global notification settings (#894)
+ - Code maintenance - Removing old function (#875)
+ - Show screenshot age in [preview]
+ - Update README.md
+ - Update README.md
+ - Update README.md
+ - Update bug_report.md
+ - Update bug_report.md
+ - Update README.md
+
+0.39.18 / 2022-08-19 11:37:26 +0200:
+ - 0.39.18
+ - More data saving pre-checks (#863)
+ - Update screenshot
+ - Checkbox operations - reorder buttons for safety
+ - UI feature - Basic checkbox/group operations (#861)
+ - Bug fix - automatically queued watch checks weren't always being processed sequentially
+ - Playwright - Support proxy auth mechanisms (#859)
+ - Update README.md
+ - Update README.md
+ - Skip processing when watch was deleted
+ - Playwright fetcher didn't report low level HTTP errors correctly (like Connection Refused) (#852)
+ - Be sure visual-selector data is set when xPath/CSS filter is not yet found (#851)
+ - Visual selector data not being saved by refactor
+ - 'Save chrome screenshot' checkbox never used, removing, we always save the screenshot. (#844)
+ - Crash fix: Data store sub-directories werent always being created when needed (#842)
+ - Make the table header easier to understand when sorting (#840)
+ - Column sorting (#838)
+ - Update README.md
+ - Revert "don't process paused entries after queue", so we can still manually recheck a paused watch
+ - Remove 'last-changed' from url-watches.json and always calculate from history index (#835)
+ - Massive improvements to error handling - show separate output for non HTTP 200 status replies
+ - Execute JS should happen after waiting seconds
+ - Upgrade playwright python driver (#834)
+ - Crash protection - handle the case where watch was deleted while being checked (#833)
+ - Don't process a watch if it was paused after being queued (#825)
+ - Notification Library Update (fixes for Home Assistant) - update requirements.txt (#818)
+ - Remove social links for now
+
+0.39.17.2 / 2022-08-05 15:53:09 +0200:
+ - 0.39.17.2
+ - Test fix - Remove debug from test
+ - Security update -  Password could be unset from settings form unexpectedly (#808)
+ - Disable SIGCHLD Handler for now - keeping SIGTERM for DB writes
+ - Handle SIGTERM for cleaner shutdowns (#737)
+ - Remove [save & preview] button, the preview is not updated live so it can lead to confusion (#801)
+ - Feature - priority queue - edited and added watches should get checked before automatically queued watches (#799)
+ - [preview current] cleanup code and add test
+ - Feature - mute notifications (#791)
+ - Test improvement - remove unnecessary step
+
+0.39.17.1 / 2022-07-29 10:13:29 +0200:
+ - 0.39.17.1
+ - Bug fix: Filter failure detection notification was interfering with change-detection results, added test case (#786)
+ - README.md - new Discord invite link
+
+0.39.17 / 2022-07-28 13:07:51 +0200:
+ - 0.39.17
+ - Add https://discord.com/api notification hook to the automatic truncation due to Discords 2000 char limit
+ - UI Feature - Add watch in "paused" state, saving then unpauses (#779)
+ - Enhancement - support xPath text() function filter, for example "//title/text()" in RSS feeds (#778)
+ - Bug fix - Filter "Only trigger when new lines appear" should check all history, not only the first item (#777)
+ - Visual Selector direct element finder fix
+ - Update README.md
+ - Update README.md links
+ - Filter failure notification send default enable now controlled by setting Env var
+ - Refactor of extract text filter - Regex, support Regex (groups) and all python regex flags via /something/aiLmsux (#773)
+ - Update README.md - adding LinkedIn link
+ - Update README.md - Adding Discord and YouTube links
+ - Bug fix for alerting when xPath based filters are no longer present (#772)
+ - Send notification when CSS/xPath filter is missing after more than 6 (configurable) attempts (#771)
+ - mailto plaintext handling fix for 'plaintext' apprise integration
+ - Minor code cleanups
+ - Notifications - email - Correctly send plaintext notification email with plaintext header (#767)
+ - Form text tweak - Regex clarification (#766)
+ - Update README.md
+ - Handle simple obfuscations - HomeDepot.com style price obfuscation (#764)
+ - Fixing docker-compose.yml PLAYWRIGHT_DRIVER_URL example URL
+ - Notifications fix - Discord - added discord webhook base url to truncation rules (#753)
+ - Update Playwright URI Env example with stealth setting and CORS workaround (more reliable fetching)
+ - remove extra file
+ - removing package-lock.json - not required to be in git
+ - Share-icon cleanups
+ - Test improvement: Extract text should return all matches
+ - Bug fix: RSS Feed should also announce utf-8 charset
+ - Regex extract filter: Return all regex results instead of first match (#730)
+ - Ability to specify JS before running change-detection (#744)
+ - Playwright - log console errors to output
+ - UI Improvement - Clarifying "Visual Filter" tool as "Visual Selector Filter"
+ - Use environment variables to override new watch settings defaults (user-agent, timeout, workers) (#742)
+ - Update docker-compose.yml  - Remove duplicate environment variables from playwright-chrome sample config in docker-compose.yml (#738)
+
+0.39.16 / 2022-07-05 16:14:57 +0200:
+ - 0.39.16
+ - Fix notification apprise application name to changedetection.io #731
+ - Update README.md
+ - [new filter] Filter option - Trigger only when NEW content (lines) are detected ( compared to earlier text snapshots ) (#685)
+ - Playwright - Use HTTP Request Headers override (Cookie, etc)
+ - lang: prefer 'clear (snap) history' to 'scrub' (#721)
+ - Minor diff page improvements - list should be sorted 'newest first' and no need to include the current version to compare against (#716)
+ - bug fix: `last_changed` was being set on the first fetch, should only be set on the change after the first fetch #705
+ - Update README.md
+ - Improve docker-compose.yml browserless docker container example, add env var for STEALTH and BLOCK_ADS (#701)
+ - New filter - Block change-detection if text matches - for example, block change-detection while the text "out of stock" is on the page, know when the text is no longer on the page (#698)
+ - Docker containers - :latest is now stable release, :dev is now master/nightly
+ - Trigger filters improvement- it's possible some changes weren't getting detected because the previous checksum only recorded when an event occurred (#697)
+ - Some changes werent getting triggered because the previous checksum only recorded when an event occured
+ - Notifications regression bug in 0.39.15 - only sent the first notification URL
+ - Playwright screenshots - no need for high-res "bug workaround" screenshot, use lower quality/faster configurable image quality env var
+ - Adding extra check when updating DB on ReplyWithContentButNoText
+ - Notifications log - log what was sent after applying all cleanups
+ - Re #555 - tgram:// notifications - strip added HTML tag which is not supported by Telegram
+ - Give more helpful error message when a page doesnt load
+ - Tweaks to playwright fetch code - better timeout handling
+ - Re #580 - New functionality - Random "jitter" delay to requests (#681)
+
+0.39.15 / 2022-06-12 14:05:34 +0200:
+ - 0.39.15
+ - Watch overview list - adding spinner to make it easier to see whats currently being 'Checked'
+ - Preview section - add helpful check
+ - Send test notification - improved handling of errors
+ - Notification log - also log normal requests and make the log easier to find
+ - Update bug_report.md
+ - Use correct RSS CDATA handling (#662)
+ - Improve logging (#671)
+ - New [scrub] button when editing a watch - scrub single watch history (#672)
+ - Diff + Preview - Hide date selector widget when viewing screenshots as its not yet possible to compare screenshots (but will be soon!)
+ - Diff + Preview - Fixing screenshot behaviour after preference change
+ - Screenshot handling on the diff/preview section refactor (#630)
+ - Shared watches - include "Extract text" filter
+ - Improve error message when filter not found in page result (#666)
+ - "Extract text" filter - improve placeholder example
+ - Visual selector - 'clear selection' button should clear the filter also
+ - New feature - "Extract text" filter ability (#624)
+ - Fixing RSS feed HTML content formatting (#662)
+ - Update notification library - Improving telegram support
+ - 'Mark all viewed' button was missing in this version, added test also. (#652)
+ - Content fetcher - Handle when a page doesnt load properly
+ - Playwright - Correctly close browser context/sessions on exceptions
+ - Move history data to a textfile, improves memory handling (#638)
+ - Update feature_request.md
+ - Remove UK Covid news
+ - Visual Selector fix: Firefox compatibility - Visual Selector (#646)
+ - Remove group tag arbitrary length limit (#645)
+ - Distill.io import bug fix when no tags assigned to a watch (#557)
+ - Ignore whitespace on by default
+ - Visual Selector - clear events when changing tabs
+ - Minor code cleanup
+ - Re #616 - content trigger - adding extra test (#620)
+ - README.md update Visual Selector tool - tidy up screenshots, improve text
+ - Playwright - ByPass CSP for more reliable JS scraping, disable accept downloads
+ - VisualSelector - Better handling of filter targets that are no longer available in the HTML
+ - Update bug_report.md
+ - 0.39.14.1
+
+0.39.14.1 / 2022-05-24 00:21:30 +0200:
+ - 0.39.14.1
+ - pip build fix - include API module
+ - Visual Selector - be more resilient when sites interfere with the xPath scraping
+ - Adding new Visual Selector for choosing the area of the webpage to monitor - playwright/browserless only (#566)
+
+0.39.14 / 2022-05-23 14:40:26 +0200:
+ - 0.39.14
+ - Fix encoding errors with XPath filters from UTF-8 responses (#619)
+ - API Interface (#617)
+ - Add note that changedetection is not performed on the screenshot just yet (WIP https://github.com/dgtlmoon/changedetection.io/pull/419 )
+ - Fixing edit template HTML
+ - Proxy settings on watch should have a "[ ] default" option (#610)
+ - Input field tidyup (#611)
+ - Update wiki link for 'More info' about sharing a watch and its configuration
+ - Option to control if pages with no renderable content are a change (example: JS webapps that dont render any text sometimes) (#608)
+ - Playwright - raise EmptyReply on empty reply, no need to process further
+ - Re #214 - configurable wait extra seconds for webdriver requests before extracting text (#606)
+ - Fix PLAYWRIGHT_DRIVER_URL default value (cf. #587) (#599)
+ - Update PIP readme.md
+
+0.39.13.1 / 2022-05-10 22:45:08 +0200:
+ - Fixing Pip install problem - Update MANIFEST to include model/ subdir, improving imports (#593)
+
+0.39.13 / 2022-05-10 17:24:38 +0200:
+ - 0.39.13
+ - Distill.io JSON export file importer (#592)
+ - Ability to specify a list of proxies to choose from, always using the first one by default, See wiki (#591)
+ - Improving Playwright docs (#588)
+ - Playwright - code fix
+ - Playwright fetcher - more reliable by just waiting arbitrary seconds after the last network IO
+ - Make proxy configuration more consistent - see https://github.com/dgtlmoon/changedetection.io/wiki/Proxy-configuration (#585)
+ - Playwright fetcher - use the correct default User-Agent
+ - Toggle visibility of extra requests options/settings when not in use (#584)
+ - Add new fetch method: Playwright Chromium (Selenium/WebDriver alternative)  (#489)
+ - Simplify scrub operation (simply cleans all) (#575)
+ - Bugfix - dont update record when deleted during check
+ - Improving support info in README.md
+ - Handle deletions better (#570)
+ - Data storage bug fix #569
+ - Upgrade notifications library - fixing marketup in email subject
+ - Ability to 'Share' a watch by a generated link, this will include all filters and triggers - see Wiki (#563)
+ - Upgrade notifications library Re #555 - fixing telegram HTML markup in notification title
+ - Unify MINIMUM_SECONDS_RECHECK_TIME env var variable to 60 seconds
+ - Seconds/minutes/hours/days between checks form field upgrade from 'minutes' only (#512)
+ - Form styling improvements
+ - Form field handling improvements - fixing field list handler for empty lines
+ - Fix "Add email" button in main global notification settings
+ - Test notification button fixed in main settings (#556)
+ - tgram:// be sure total notification size is always under their 4096 size limit
+ - Shows which items are already in the queue, disables adding to the queue if already in the recheck queue (#552)
+ - Notifications - Signal API support, Ntfy support, hotmail, matrix, Gotify API fixes
+ - Discord:// notification size limit - also includes the notification title
+ - Fix spelling errors
+ - Update README.md
+ - Update README.md
+ - Import speed improvements, and adding an import URL batch size of 5,000 to stop accidental CPU overload (#549)
+ - Ability to set the default fetch mode via the DEFAULT_FETCH_BACKEND variable
+ - Refactor form handling (#548)
+ - Adding support for change detection of HTML source-code via "source:https://website.com" prefix (#540)
+ - Re-label the quick-add widget placeholder 'tag' to 'watch group'
+ - HTTP Fetcher code improvements
+ - Adding RSS metadata auto-discovery
+ - Upgrade WTforms form handler to v3 (#523)
+
+0.39.12 / 2022-04-09 14:16:30 +0200:
+ - 0.39.12
+ - Miscellaneous settings form visual improvements (#535)
+ - Option to render links as [Some Text ](/link), adds the ability to change-detect on hyperlink changes
+ - Specify our Discord avatar_url as default avatar_url
+ - Minor git updates
+ - Fix screenshot tab name
+ - Discord:// notifications should be cut to 2000 chars or Discord will not process them. (#531 + #323)
+ - Make long reports in the notification error log easier to read
+ - [Add email] button in notification settings with a prefix set from NOTIFICATION_MAIL_BUTTON_PREFIX env variable when defined. (#528)
+ - Update README.md
+ - Skip processing a watch into the RSS feed if there's not enough data to examine (fixes Internal Server Error when accessing the RSS feed) (#521)
+ - Introduce an AJAX button for sending test notifications instead of the checkbox (#519)
+ - Make text tab always available at default
+ - When fetching a snapshot via Chrome, make the most recent screenshot available on the Diff and Preview pages (#516)
+ - Remove 'unviewed' status in watch table when Diff link clicked (#514)
+ - RSS feed CDATA should contain difference output
+ - Fix - {diff} and {diff_full} notifications tokens were not always including the full output
+ - Update README.md
+ - Update README.md
+ - Minor UI cleanups (mobile tabs, font sizing) (#503)
+ - Fix typo in Filters & Triggers settings. (#495)
+ - Add autofocus attribute to password login field (#496)
+
+0.39.11 / 2022-03-23 09:42:51 +0100:
+ - 0.39.11
+ - Microsoft Windows installation fixes (#492)
+ - GitHub tweak - container tags should be CSV list (Fix ghcr.io not building)
+ - GitHub tweak - build containers also on push to master
+ - Allow changedetector to ignore status codes as a per-site setting (#479) (#485)
+ - Security update - Use CSRF token protection for forms, make "remove password" use HTTP Post (#484)
+ - Security update - Protect against file:/// type access by webdriver/chrome. (#483)
+ - Only build container on GitHub releases, not tests
+ - Also change container names to help stop some DNS issues
+ - Detect byte-encoding when the server mishandles the content-type header reply (#472)
+ - Improving form/edit example markup
+ - JSON diff/preview should use utf-8 encoding where possible (#465)
+ - Fix typo in settings form
+ - Add python venv to .gitignore
+
+0.39.10 / 2022-03-12 17:28:30 +0100:
+ - 0.39.10
+ - Add filter to remove elements by CSS rule from HTML before change detection is run (#445)
+ - Minor updates to filters form text
+ - Re #448 - Dont use changedetection.io as the container name and hostname, fix problems fetching from the real changedetection.io webserver :)
+ - Testing - Refactor HTTP Request Type test (#453)
+ - Make table header font size the same as content
+ - Adjust background colours
+ - Handle the case where the visitor is already logged-in and tries to login again (#447)
+ - Make the Request Override settings easier to understand
+ - Minor tweak to notification token table
+ - Style tweak to watch form
+ - Login form style fixes
+ - Upgrade apprise notification engine to 0.9.7 (important telegram fixes)
+ - Remove pytest from production release pip requirements
+ - Style fix for background image relative to X-Forwarded-Prefix when running via reverse proxy subdirectory
+ - Re-arranging primary links so the important ones are easier to find on mobile
+ - Set authentication cookie path relative to X-Forwarded-Prefix when running via reverse proxy subdirectory (#446)
+ - Upgrade inscriptis HTML converter to version 2.2~ (#434)
+ - Better text/plain detection and refactor tests (#443)
+ - Tweak support tabs and text (#440)
+ - Include link to changedetection.io hosted option (#439)
+ -  Improved CPU usage around the loop responsible for what sites needs to be checked
+ - Update README.md with hosting options
+
+0.39.9 / 2022-02-24 17:02:50 +0100:
+ - 0.39.9
+ - Minor reliability upgrade for large datasets - retry deepcopy (#436)
+ - "Recheck" button should work when entry is in paused state
+ - Better file exception handling on saving index JSON
+ - Fix small issue in highlight trigger/ignore preview page with setting the background colours, add test
+ - Ensure string matching on the ignore filter is always case-INsensitive
+ - Ability to visualise trigger and filter rules against the current snapshot on the preview page
+ - Update README.md
+ - XPath RegularExpression support
+ - better checking of JSON type
+ - Make system level errors from the HTTP fetchers easier to find (#421)
+ - Bump node-sass from 6.0.1 to 7.0.0 in /changedetectionio/static/styles (#415)
+ - Dont allow redirect on login, it's safer and more reliable this way (#414)
+ - When using Env. FETCH_WORKERS or WEBDRIVER_DELAY_BEFORE_CONTENT_READY , it should be type int
+
+0.39.8 / 2022-02-08 18:56:10 +0100:
+ - 0.39.8
+ - Number of fetching workers can be overriden by Env "FETCH_WORKERS" (#413)
+ - Adding Env var "WEBDRIVER_DELAY_BEFORE_CONTENT_READY" to wait n seconds before extracting the text from the browser
+ - Language fix "watches are rechecking." it actually puts them into an internal queue "watches are QUEUED for rechecking"
+ - Use flask url_for() for webdriver chrome icon instead of relative path
+ - Fix typo in the startup create-directory command suggestion (#405)
+ - Introduce -h option to allow listening not on 0.0.0.0. (#406)
+ - Refactor tests for notification error log handler (#404)
+ - Notification error log handler (#403)
+ - Add notification note - tgram:// bots cant send messages to other bots, so you should specify chat ID of non-bot user.
+ - fixed the reference to wiki for rpi section (#402)
+ - /preview format doesnt need <pre> - fixing too many returnlines in content on diff/preview page
+ - Update README.md
+ - Update README - Fix docker section
+ - Update README - Tidy up sections
+ - Offer instance on Lemonade Tidy README
+ - Ability to use a generated salted password in deployments as env var SALTED_PASS (#397)
+ - #323 Adding note about discord:// 2000 char limit (#392)
+ - plaintext mime type fix - Don't attempt to extract HTML content from plaintext, this will remove lines and break changedetection (#391)
+ - .add_watch() can accept empty tag Use https://changedetection.io/CHANGELOG.txt as a nice default page to watch
+ - Add option for tags on import (#377)
+ - Update CONTRIBUTING.md
+ - Update README.md
+ - Fix bug where diff and diff_full were switched in notification templates. (#380)
+ - Closes #378
+
+0.39.7 / 2022-01-15 23:21:06 +0100:
+ - 0.39.7
+ - Scrub watch snapshot fixes
+ - Simple HTTP auth (#372)
+ - Adding note about JS pages
+ - Notification settings defaults and validation (#361)
+ - Filters settings helper text tidy-up
+ - Add test for low-level network error text handling
+ - Add API endpoint for current snapshot (#359)
+ - Clarify notice/messages around changing ignore text
+
+0.39.6 / 2022-01-05 19:13:42 +0100:
+ - 0.39.6
+ - Heroku tweaks (backup download) (#356)
+ - XPath support (#355)
+ - Better handling of EmptyReply exception, always bump 'last_checked' in the case of an error (#354)
+ - Adding note in comments for working arm64 chrome with rPi-4 (#336)
+ - fix typo in README.md (#350)
+ - Re #348 - Add test for backup, use proper datastore path
+ - Update README.md
+ - Be sure that documents returned with a application/json header are not parsed with inscriptis (#337)
+ - Re #340 - snapshot should not be modified by ignore text (#344)
+ - Re #133 Option for ignoring whitespacing (#345)
+ - Re #342 notification encoding (#343)
+ - Update README.md
+ - Adding global ignore text (#339)
+ - Adding new proxyType to selenium mappings
+ - Use selenium 4.1.0
+ - Bumping selenium version re https://github.com/dgtlmoon/changedetection.io/pull/331#issuecomment-1003323594
+ - Add socksVersion mapping (#331)
+ - Fix broken RSS link fields
+ - RSS Link links you back to the difference UI/JS page, RSS Description is the page you're watching, and RSS Title is the page you're watching
+ - Unify Filters and Triggers tabs into a single tab
+ - Move 'request type' field to the new 'Requests' tab
+ - Aligning call signatures #325
+ - Extend Request Parameters to add Body & Method (#325)
+ - Update README.md
+ - Create CONTRIBUTING.md
+ - Update README.md
+ - Re #267 - Pass settings for the proxy setup for webdriver (#326)
+ - Update README.md
+ - Update README.md
+ - Update README.md
+
+0.39.5 / 2021-12-27 23:46:29 +0100:
+ - 0.39.5
+ - Update feature_request.md
+ - Update issue templates
+ - Update bug_report.md
+ - Update issue templates
+ - W3C HTML validation issue around RSS icon
+ - Closes #323 adds link to wiki
+ - Update README.md
+ - Update README.md
+ - improve theming docs
+ - Update README.md
+ - Update README.md
+ - Closes #315 - Include library apprise Notify_mqtt
+ - Re #80, sets SECLEVEL=1 in openssl.conf to allow monitoring sites with weak/old cipher suites (#312)
+ - Go back to docker hub
+ - RSS allow access via token (#310)
+ - Adding deploy to Heroku button
+ - Adding heroku app.json app
+ - Tweak runtime Heroku version
+ - Tweaking heroku Procfile
+ - Adjust buildpacks on Heroku
+ - Adding heroku python3 runtime config
+ - Try simpler heroku recipe
+ - -C option to create a datadir if it doesnt exist
+ - Re #308 - Adding test and including settings in clone operation (#309)
+ - fixing too small font in diff UI (#260)
+ - Update README.md
+ - Send diff in notifications (#296)
+ - Fix scrub form theme
+ - Scrub dates: Fix date regex limit handler parsing
+ - Wait 60 seconds or until stop_thread is set
+ - Check that a notification URL is set when sending the test notification (#300)
+ - Flask 2 (#299)
+ - Re #269 - Show current/correct BASE_URL information (#271)
+ - Re #269 - Fix env var comment name
+ - Enable Markdown and HTML notifications. (#288)
+
+0.39.4 / 2021-12-02 22:54:38 +0100:
+ - 0.39.4 release
+ - Re #286 - Solving lost data/corrupted data - Tweak timing and try to write to a temp file first (#292)
+ - Fix element paths when using reverse proxy subfolder (#272)
+
+0.39.3 / 2021-10-28 11:32:33 +0200:
+ - 0.39.3 release
+ - Re #264 - fixing clone watch operation
+ - Re #265 - extended jsonpath support (#266)
+ - Re #265 - wasnt catching the jsonpath exception due to invalid jsonpath expressions properly
+ - Re #257 - Handle bool val of json path better (#263)
+ - Re #249 - Add EXPOSE 5000 to Dockerfile
+ - Provide better combination of chardet and urllib3
+ - Prefer GHCR.io over DockerHub (#245)
+ - Limit branches/tags of container build
+ - Re #213 - Adding screensize examples to selenium container
+ - Be more specific about tagged release builds
+ - Fix :latest release worflow syntax check
+ - Form helper - explain where the webdriver setting comes from
+ - Rename workflow name
+ - Just 'published' and 'edited' package release is enough (remove 'created')
+
+0.39.2 / 2021-10-06 08:49:33 +0200:
+ - Fixing workflow tag syntax issues
+ - fix broken workflow syntax
+ - add step for metadata debug, see if it runs by checking workflow tag name
+ - Container build/push doesnt need to be so specific
+ - Oops on/release was in the wrong block
+ - release also on edited, published
+ - Run workflow on release
+ - Use a better switch mechanism for build type
+ - version 0.39.2
+ - Configurable BASE_URL (#228)
+ - Split python pip builder to its own release based workflow
+ - remove accidental syntax add
+ - Re #242 - app was treating notification field defaults as the field value (#244)
+ - attempt to re-enable docker layer cache
+ - Forgot GHCR tag with version
+ - Limit container build to releases and master
+ - Fix GHCR login
+ - Use the same workflow for tag and release
+ - Drop redundant build workflow
+ - try :latest and :tag in same workflow run
+ - Separate workflows
+ - Docker image build issues (#243)
+ - Re #239 - Individual GUID for watch+changeevent (#241)
+ - Update README.md
+ - Re #232 - Use a copy of the datastore incase it changes while we iterate through it (#234)
+ - Setting for Extract <title> as title option on individual watches (#229)
+ - GitHub repo build platforms: linux/amd64,linux/arm64,linux/arm/v6,linux/arm/v7
+ - GitHub container repo (#227)
+ - Remove extra build step
+ - push github container master also
+ - Tidy up workflow names
+ - Attempt to setup GitHub Container Registry
+
+0.39.1 / 2021-09-17 18:40:16 +0200:
+ - v0.39.1
+ - Re #185 - [feature] Custom notifications templates per watch (#226)
+ - Bump tar from 6.1.6 to 6.1.9 in /changedetectionio/static/styles (#209)
+ - Re #225 - Notifications refactor token replacement fix possible missing value for watch_title
+ - Re #42 - Notifications refactor token replacement fix possible missing value for watch_title
+ - Bump tar from 6.1.6 to 6.1.9 in /changedetectionio/static/styles (#209)
+ - Adds 'Create Copy' feature to clone a watch (#184)
+ - adding specific test (#205)
+ - New notification tokens - watch_uuid, watch_title, watch_tag, (#201)
+ - Re #203 - validate tokens (#204)
+ - No point hiding the notifications customisation area because it's now in its own tab
+ - Update README.md
+ - Test - prove that notifications are not being sent when content does not change
+ - remove quotes from env vars
+ - Re https://github.com/dgtlmoon/changedetection.io/discussions/189 A note to not use quotes in env parts
+ - WebDriver fetcher - settings - when an alternative one is configured, show it in the label
+ - Update README.md
+
+0.39 / 2021-08-16 15:24:37 +0200:
+ - Installation via pip (#186)
+ - Update README.md
+ - Trigger text/wait (#187)
+ - Reword group tag - more obvious name
+ - Fix img alt/title accesibility for pause icon
+ - Let the fetcher throw an exception which will be caught and handed to the operator anyway
+ - Example placeholder was pushed out
+ - Move fetcher tab back to general - save space on mobile
+ - WebDriver test fetch should use environment var too
+ - Add fetch option to each watch
+ - Chrome/Webdriver support for Javascript websites (#114)
+ - Fixing tar npm security issue npm install  "tar@>=6.1.2"
+
+0.38.2 / 2021-08-07 14:18:28 +0200:
+ - tag 0.38.2
+ - Re #172 - be sure that we are non-greedy matching the first : when splitting the headers so we dont break "Cookie" header (#175)
+ - Update heroku.yml
+ - Re #156 - PORT should always be an Integer
+ - Re #159 - Adding env var example to docker-config.yml
+ - Add Heroku Deployment Support (#159)
+ - Re #154 - Handle missing JSON better
+ - high res
+ - higher res screenshot
+ - Update screenshot
+ - Assert that html_tools.JSONNotFound is correctly raised
+ - Re #154 Ldjson extract parse (#158)
+ - Responsive fix for input field on mobile
+ - Re #148 - Always set something for {base_url} so we dont send possibly an empty body/title notification which could break some services.
+ - Add medium-size-desktop class to notification custom title
+ - Notification default: Make sure to use atleast some text here, a blank notification body could be problematic for some services
+ - Re #150 - stop using 'size' across all elements and rely on CSS for a better mobile experience (stops fields from pushing out)
+ - fix: setting overflow in mobile view (#150)
+ - Re #121, #123 - Show the current base_url value
+ - Re #149 - allow empty timestamp limit for scrub operation
+ - Dont show "new version available" message when password is enabled and user is logged out
+ - test fix - dont trigger notifications in header test
+ - Strengthen the notification tests
+ - Re #137 - Adding test to confirm that headers are not repeated
+ - Add debug output to notify loop
+ - Add note to field
+ - Cleanup test helper data before and after running
+ - Improve debug info
+
+0.38.1 / 2021-07-20 17:57:27 +1000:
+ - 0.38.1 tag
+ - Re #143 - Remove old notification test code, fix form handler (#145)
+ - Update README.md
+ - Re #135 - refactor the quick add widget (#136)
+ - Partially revert 47e5a7cf0990bc958061ce57de8ae88f3fbd39aa (#138)
+
+0.38 / 2021-07-16 16:24:01 +1000:
+ - use a github action for getting the tag
+ - rename tag build runner
+ - fix tag
+ - build and push tag
+ - Re #76 - Fixing links
+ - Cleaner is to let flexbox overflow and scroll on the X where needed
+ - #76 app path prefix when behind proxy_pass (#91)
+ - Settings: Remove password link fix
+ - Make sure right menu is still visible when URL is long
+ - 0.38 release
+ - Re #132 - Make a list of the JSONpath results instead of using only the first value
+ - Customisable notifications (#123)
+ - Re #117 - dont re-encode single value types, looks better in the diff
+ - Usability tweak - [edit] on diff page should go back to diff page
+ - Update README.md
+ - Adding text about JSON API Monitoring
+ - Re #117 Jsonpath based JSON change detection filter (#125)
+ - Update README.md
+ - Update README.md
+ - Use right sticky for version
+ - Re #118 - Make 'show current version' more obvious
+ - Diff page - use the document title in <title> for better bookmarking
+ - node-sass 6.0.1 works with node-sass watch way better
+ - Updating inscriptis/text/html library to 1.2
+ - Update readme with the branch link for javascript support
+ - Updating trim-newlines packages
+
+0.37 / 2021-07-02 20:19:26 +1000:
+ - 0.37 release
+ - #110 global recheck time (#113)
+ - Re #106 - handling empty title with gettr cleanup (#107)
+ - Update README.md
+ - Auto extract html title as title (#102)
+ - Bug fix - Check 'minutes_between_check' is set
+ - tweak <pre> text wrapping when displaying diff
+ - CSS Filter - Smarter is to just extract the HTML blob and continue with inscriptus, so we have almost the same output as not using the filter
+ - CSS Filter - restore nicer linefeeds
+ - @todo Comment - BS4's element.get_text() seems to lose the indentation format no-matter what
+ - CSS Filter - strip text of whitespacing, preserve new lines where applicable, remove extra newlines
+ - Include statistics for number of watches
+ - Set edit-form for settings+watch to always be wide
+
+0.36 / 2021-06-22 10:33:27 +1000:
+ - Update README.md
+ - 0.36
+ - Re #42 - dont use blank titles
+ - Re #100 - Fixing storage of minutes_between_check and adding automated test for field storage
+
+0.35 / 2021-06-22 00:28:41 +1000:
+ - 0.35
+ - Time between rechecks is always stored as minutes
+ - Ability to reset app password by placing a file called removepassword.lock into your data directory and restarting the instance
+ - Adding tests for password control handling
+ - Remove unused field (removepassword is actually a link)
+
+0.34 / 2021-06-21 22:13:14 +1000:
+ - 0.34
+ - Be sure not to use blank passwords as the password
+ - Re #42 - custom title (#98)
+ - Re #92 - Re-use existing [preview] function for viewing current (#97)
+
+0.33 / 2021-06-21 20:07:04 +1000:
+ - 0.33
+ - #81 - Regex support (#90)
+ - Use wtforms handler (#96)
+ - Re #95 - Include PUID/PGID example
+ - re-enable tests
+ - On settings submit, display saved message
+ - Use flasks' built in 'flash' method instead of a custom message/notices (#94)
+ - Adding rPi support info
+ - Re #92 Adding link to CSS selector help in wiki
+ - Re #93 - tweak build packages
+ - Re #93, #79 - docker image multistage build lost the packages required for rPi etc
+ - Strip surrounding whitespace from elements (#89)
+ - Queue an entry for immediate recheck after [edit]
+ - Adding helper method to remove text files that are not in the index
+ - Fix typo
+ - Re #88 - placeholder text on CSS rule
+ - Re #86 - fix typo
+
+0.32 / 2021-06-15 09:50:24 +1000:
+ - 0.32 release
+ - Sassify the diff page
+ - "Sassify" the theme, easier to manage
+ - Mobile fixes (#87)
+ - Re #86 - Refactor scrub date limit code
+ - Tweak comments
+ - Re #77 - Repair and refactor time threshold check code
+ - Modifies Dockerfile to use multistage builds (#79)
+ - Bumping to 0.31
+
+0.31 / 2021-06-03 10:51:18 +1000:
+ - Re #75 - Adding test to confirm watched URL appears in RSS feed
+ - CSS selector filter (#73)
+ - Fixing var name
+ - Include release metadata during github build
+ - Update README.md
+ - Re #40 Ability to set individual timers (#72)
+ - Update README.md
+ - Improvements for backup (#70)
+ - Update README.md
+ - Disable image layer cache service
+ - Re-enable ARM v6/v7 builds
+ - Install requirements, remove rust and dev packages that are no longer needed, hopefully for a smaller docker layer size
+ - Remove rust build comments
+ - Arm build fixes (#68)
+ - Re #65 - Append BASE_URL env var to the notification if it is set (#66)
+ - Update README.md
+ - Adding BTC support instructions
+ - Switch to just amd64 for now due to apprise not building on ARM
+ - Fixing syntax
+ - Re #49 Re #60 - Adding more information about proxy setup to README.md
+ - Add socks proxy support (#60)
+ - Created docker-compose file (#55)
+ - Re #58 - reduce to 1 minute (a small rewrite is required to change the backend to store in 'seconds' instead of minutes)
+ - 56 - Fix notification test
+ - Update README.md
+ - Update README.md
+ - Adding rust compiler :(
+ - trying without libssl and only libffi
+ - Adding extra libs required for build
+ - Cleanup docs
+ - Tweak workflow (tests)
+
+0.30 / 2021-05-08 11:33:46 +1000:
+ - Security update
+ - Apprise notifications (#43)
+ - Fixing security update
+ - Also detect pytest in the environ (for local debug)
+ - Prepend 'test-' when runnning under pytest to guid
+ - - Relabel login button - misc test cleanup
+ - Re #46 - Add note to README.md about Javascript support
+ - Bumping version
+ - Re #45 - Set datastore path in app.config
+ - Re #44 - Broke the menu by accident, adding tests and fixing.
+ - bump to 0.29
+
+0.29 / 2021-04-30 16:54:07 +1000:
+ - docker-compose for dev not needed (use venv etc)
+ - Password protection / login support (#34)
+ - Update FUNDING.yml
+ - Skip using tag limit on pause when no tag is being viewed
+ - Pause/Unpause should respect limit tag on redirect
+ - Validate duplicate URLs
+ - Chdir is not needed because we add the file from the full path, but make it 'relative' in the Zip
+ - Fix backup generation on relative paths (like when run outside docker, under venv, etc)
+ - Adding noopener per CodeQL, stop pages from knowing the referer etc
+ - Create codeql-analysis.yml
+ - yarl not needed, lock requests version
+ - dev packages needed, drop apt cache
+ - See if we get a clean buildx without dev packages
+ - Tweaking build size thanks to https://github.com/hadolint/hadolint
+ - Adding dockerignore
+ - Re #18 - Show "preview" of the page when only one revision exists (#33)
+ - Update README.md
+ - Update README.md
+ - Also check that the watch is not paused before putting it into the checking queuex
+ - revert c60be562718d23972d7d43821bb6b87f2add3256
+ - remove extra packages (#32)
+
+0.28 / 2021-04-01 14:43:46 +0200:
+ - Bumping version to 0.28
+ - Docker push amd64 rpi etc (#28)
+ - Open [diff] links into their own window
+ - Fix auto jump on viewing the diff
+ - Re #30 - Delete history watch snapshots (#31)
+ - Slow down the DB write interval and catch the case that it changed during write
+ - Immediately 'jump' to the change
+ - Tweak to hover pause icon
+ - Stop runtime error on dict changing during write/init at start (#27)
+ - Re #22 - ability to pause
+ - Re #23 - always check value of interval time, not just on start
+ - Update README.md
+ - Use absolute image links so the screenshots work from docker hub
+ - Update README.md
+ - Updating screenshot
+ - Reuse the GUID if we have one
+
+0.27 / 2021-03-01 15:50:25 +0100:
+ - Dont show 'empty' tag, it will be in the [ALL] list
+ - Adding RSS feed icon
+ - Generic object sync should use private method
+ - Add missing urllib3
+ - Add missing pytz
+ - Check for new version
+ - Fix import form flow logic
+ - Code tidy/lint
+ - Tidy up thread logic and version check
+ - Add missing dep
+ - Remove todos
+ - Add icon for RSS, RSS should show only unviewed entries
+ - Issue #7 - RSS feeds
+ - Always override tag version (load from disk in future, so we can add it at build time)
+ - next dev is 0.27
+ - Tweak to tests
+ - Move logic
+ - Remove erroneous extra liveserver setup
+ - When new ignore text is specified, reprocess the checksum
+ - Adding filter and log output to pytest
+ - Fix edit action link
+ - Minor lint cleanup
+ - Clean up after test case
+ - Remove liveserver, doesnt belong here
+ - Fix syntax, Triggers the workflow on push or pull request events
+ - Activate workflow on all branches
+ - Issue #14 - Tweaks to edit, create ignore text, tests for ignore text, integrate ignore text
+ - Validation of added headers, should contain key/val (2 parts)
+ - Issue #12 include version for easy reference.
+ - Bring dev environment inline
+ - Tidying up requirements.txt
+
+0.26 / 2021-02-24 09:56:29 +0100:
+ - Handle the case of someone supplying a bad link
+ - Adding jump to next change diff widget
+ - Moving nice screenshot to above the fold :)
+ - Adding docker hub badge for tag information
+
+0.25 / 2021-02-22 08:53:04 +0100:
+ - Bumping schema tag to 0.25
+ - Issue #5 - Remove arbitrary '600' minutes limit
+ - Add test delay for github action test
+ - Add wait for threads in test
+ - Extending tests to cover resetting the diff/unviewed status correctly
+ - Tidy up return logic
+ - Code tidy
+ - Fix docker app files paths
+ - Tweaking Dockerfile for new eventlet wrapper
+ - Create LICENSE
+ - Adding docker pulls counter badge
+ - Use master branch for badge
+ - Removing unused import
+ - Fixing a few more easy lint wins
+ - Linting fixups
+ - Update README.md
+ - Add badge under pytest branch
+ - Create python-app.yml
+ - Create the test datastore
+ - Minor cleanup
+ - Just use the current/previous md5
+ - Finalse pytest methods
+ - Port should be an integer
+ - Tweaking client
+ - remove unused imports
+ - Use session/client fixture
+ - Addingmissing files
+ - hack of pytest implementation - doesnt work yet
+ - Tidy up a few broken datastore paths
+ - WIP, separate out the Flask from everything else, get pytest working
+ - Make records in the overview that have a difference that have not been viewed in the [diff] tab bold
+
+0.24 / 2021-02-05 18:46:00 +0100:
+ - Adding 0.24 tag
+ - Avoid accidently using Python's objects that are copied - but land as a 'soft reference', need to use a better dict struct in the future #6
+ - Minor fix to 'last changed' field, simplify template and logic
+ - Remove debug print
+
+0.23 / 2021-02-04 12:38:48 +0100:
+ - Use a thread locker and cleaner separation of concerns between main thread and site status fetch
+
+0.22 / 2021-02-03 22:28:37 +0100:
+ - Adding tag to json
+ - Adding SEND_FILE_MAX_AGE_DEFAULT to ensure backups etc dont get old
+ - Minor fix - load extra stylesheet only once
+ - Minor tweaks for development setup
+ - Provide named containers and remove all existing
+ - Adding new [Scrub All Version History] button under [settings] (But keep your URL list)
+ - Flag for immediate sync of index after adding new watch
+ - Sometimes it seems .update wasnt thread safe and isnt used here, just add a clean new dict member
+ - Adding ARG to Dockerfile
+ - Include the triggered build SHA as part of the backup info, when built in docker hub.
+ - Add cache busting var to style sheets
+ - Slightly more bulletproof instructions
+ - Updating screenshot
+ - Push newly created watches directly into the update check Queue.
+ - Adding checkall
+ - Easily download a full backup
+ - Show the date/time of the current/most up to date version
+ - Use a pool of thread workers, better for huge lists of watchers
+ - Code cleanup edit submit handler can be the same function
+ - Add update howto
+ - Refactor slightly confusing difference build function
+ - Version comparison had the wrong order
+ - https://github.com/psf/requests/issues/4525 - brotli compression is not yet supported in requests, be sure that users cant accidently use this content type encoding in the headers
+
+0.21 / 2021-02-01 21:56:18 +0100:
+ - Include the current URL in the page when viewing the version diff
+ - Include a selfcheck/diagnosis routine
+ - On manual recheck request, redirect to same tag listing
+ - Set default diff type to 'lines', faster for starters.
+ - Supply different versions to browse
+ - Fix heading
+ - Update README.md
+ - Adding diff screenshot
+ - Add more start-up examples
+ - Tweak theming
+ - Use a even simpler run command
+ - improve the wording
+ - Add basic settings page (so far just recheck time in minutes)
+ - Updating README
+ - Updating screenshot (new diff button)
+ - Trigger write index after edit of a watch
+ - Add [diff] mechanism
+ - Use a single thread for writing the sync json
+ - Use existing tag
+ - When all items showed, show which tag it belongs to
+ - Sort tag list
+ - Set active tag selection
+ - Support for comma separated tags
+ - Tweak styling for 'new watch' form
+ - Remove import for old lib
+ - Switch to inscriptis prepare config backend struct
+ - Support for custom headers per watch
+ - Going back to larger PNG screenshot, looks better in Github :)
+ - Fix alt text in markup
+ - Adding new screenshot binary
+ - Updating screenshot
+ - Moving start text to a more visible part
+ - Tweak messages
+ - Change message text
+ - Fixing messages styling
+ - Basic tag browse buttons
+ - Bulk import
+ - Tidy up 'last_checked' date handling
+ - Dev environment setup
+ - Dev docker tweaks
+ - Remove messy text
+ - Tweaking text
+ - Fixing checkall hook
+ - Use requests's r.text so we dont have to deal with charsets
+ - Add note
+ - Fix bad copy command
+ - Oops left out the image name
+
+0.12 / 2021-01-29 12:33:42 +0100:
+ - Fix build setup for the docker hub image https://hub.docker.com/r/dgtlmoon/changedetection.io
+ - Update screenshot
+
+0.11 / 2021-01-29 10:49:05 +0100:
+ - Add more start-up examples
+ - Tweak theming
+ - Use a even simpler run command
+ - improve the wording
+ - Add basic settings page (so far just recheck time in minutes)
+ - Updating README
+ - Updating screenshot (new diff button)
+ - Trigger write index after edit of a watch
+ - Add [diff] mechanism
+ - Use a single thread for writing the sync json
+ - Use existing tag
+ - When all items showed, show which tag it belongs to
+ - Sort tag list
+ - Set active tag selection
+ - Support for comma separated tags
+ - Tweak styling for 'new watch' form
+ - Remove import for old lib
+ - Switch to inscriptis prepare config backend struct
+ - Support for custom headers per watch
+ - Going back to larger PNG screenshot, looks better in Github :)
+ - Fix alt text in markup
+ - Adding new screenshot binary
+ - Updating screenshot
+ - Moving start text to a more visible part
+ - Tweak messages
+ - Change message text
+ - Fixing messages styling
+ - Basic tag browse buttons
+ - Bulk import
+ - Tidy up 'last_checked' date handling
+ - Dev environment setup
+ - Dev docker tweaks
+ - Remove messy text
+ - Tweaking text
+ - Fixing checkall hook
+ - Use requests's r.text so we dont have to deal with charsets
+ - Add note
+ - Fix bad copy command
+ - Oops left out the image name
+ - Fix build setup for the docker hub image https://hub.docker.com/r/dgtlmoon/changedetection.io
+ - Update screenshot
+
+0.2 / 2021-02-01 10:24:29 +0100:
+ - Add more start-up examples
+ - Tweak theming
+ - Use a even simpler run command
+ - improve the wording
+ - Add basic settings page (so far just recheck time in minutes)
+ - Updating README
+ - Updating screenshot (new diff button)
+ - Trigger write index after edit of a watch
+ - Add [diff] mechanism
+ - Use a single thread for writing the sync json
+ - Use existing tag
+ - When all items showed, show which tag it belongs to
+ - Sort tag list
+ - Set active tag selection
+ - Support for comma separated tags
+ - Tweak styling for 'new watch' form
+ - Remove import for old lib
+ - Switch to inscriptis prepare config backend struct
+ - Support for custom headers per watch
+ - Going back to larger PNG screenshot, looks better in Github :)
+ - Fix alt text in markup
+ - Adding new screenshot binary
+ - Updating screenshot
+ - Moving start text to a more visible part
+ - Tweak messages
+ - Change message text
+ - Fixing messages styling
+ - Basic tag browse buttons
+ - Bulk import
+ - Tidy up 'last_checked' date handling
+ - Dev environment setup
+ - Dev docker tweaks
+ - Remove messy text
+ - Tweaking text
+ - Fixing checkall hook
+ - Use requests's r.text so we dont have to deal with charsets
+ - Add note
+ - Fix bad copy command
+ - Oops left out the image name
+ - Fix build setup for the docker hub image https://hub.docker.com/r/dgtlmoon/changedetection.io
+ - Update screenshot
+ - Add edit UI Move to keyed structure instead of list
+ - Fixes to CSS
+ - Add method to launch a full recheck of all @note - needs to be converted to a python Queue threads
+ - Tweaks to docker layout
+ - Remove actual :// links, dont consider these as part of the changes, often they include variables/trackingscript ref etc
+ - Create FUNDING.yml
+
+0.1 / 2021-01-28 11:17:12 +0100:
+ - Specify image name in docker files to avoid a confusing build/run
+ - Tidy up devel docker
+ - Tweak comments
+ - Avoid recasting the type
+ - Store a history of changes, used for future lookup/diff/explore changes UI
+ - Update README.md
+ - Show the backend error in the table if there is one
+ - Include screenshot
+ - Fix branch name
+ - Tweak todo
+ - Adding README amd docker info
+ - Add missing file
+ - Primitive support for extra headers
+ - remove debug
+ - Handle titles and links
+ - Fix base definition of the watcher
+ - sort by last changed
+ - fix button size
+ - Store the html2text version too
+ - fix favicon
+ - small fixes
+ - Handle errors better, use the plaintext output
+ - Workon threads
+ - WIP
+ - Remove nocache experimental
+ - Initial commit
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+	<head>
+		<title>rss feeds from open-data-japan</title>
+	</head>
+	<body>
+		<outline text="Portal">
+<outline text="e-Stat Portal Site" type="rss" xmlUrl="https://www.e-stat.go.jp/news/rss/xml?refTarget=0101&haisinType=0100&category=all" htmlUrl="https://www.e-stat.go.jp/whats-new" description=""/>
+<outline text="Tokyo Open Data Catalog" type="rss" xmlUrl="https://catalog.data.metro.tokyo.lg.jp/feeds/dataset.atom" htmlUrl="https://catalog.data.metro.tokyo.lg.jp/dataset" description=""/>
+</outline>
+<outline text="Govnews">
+<outline text="Cabinet Office" type="rss" xmlUrl="https://www.cao.go.jp/rss/news.rdf" htmlUrl="https://www.cao.go.jp/index.html" description=""/>
+<outline text="Kantei" type="rss" xmlUrl="https://www.kantei.go.jp/index-jnews.rdf" htmlUrl="https://www.kantei.go.jp/" description=""/>
+<outline text="METI" type="rss" xmlUrl="https://www.meti.go.jp/ml_index_release_atom.xml" htmlUrl="https://www.meti.go.jp/press/index.html" description=""/>
+<outline text="Ministry of Finance" type="rss" xmlUrl="https://www.mof.go.jp/news.rss" htmlUrl="https://www.mof.go.jp" description=""/>
+</outline>
+<outline text="Publication">
+<outline text="METI Journal" type="rss" xmlUrl="https://meti-journal.jp/rss" htmlUrl="https://journal.meti.go.jp/" description=""/>
+<outline text="JRI Reports" type="rss" xmlUrl="https://www.jri.co.jp/xml.jsp?id=12966" htmlUrl="https://www.jri.co.jp/report/year/" description=""/>
+</outline>
+		
+	</body>
+</opml>

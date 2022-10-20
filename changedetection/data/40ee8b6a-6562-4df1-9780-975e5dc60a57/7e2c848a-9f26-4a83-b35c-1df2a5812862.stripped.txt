@@ -1,0 +1,103 @@
+  Hacker News new | past | comments | ask | show | jobs | submit  login                                                                                                    
+                                                                                                                                                                           
+
+ 1.                                                                    AI will replace middle management before robots replace hourly workers ( chatterhead.bearblog.dev ) 
+     91 points by chatterhead 2 hours ago | hide | 71 comments                                                                                                             
+                                                                                                                                                                           
+ 2.                                                                    The Mystery of 355/113 (2010) ( davidbau.com )                                                      
+     107 points by LeoPanthera 4 hours ago | hide | 53 comments                                                                                                            
+                                                                                                                                                                           
+ 3.                                                                    NASA’s Webb takes star-filled portrait of Pillars of Creation ( nasa.gov )                          
+     489 points by pizza 11 hours ago | hide | 129 comments                                                                                                                
+                                                                                                                                                                           
+ 4.                                                                    A large scale non-linear optimization library ( github.com/ceres-solver )                           
+     30 points by rch 2 hours ago | hide | 6 comments                                                                                                                      
+                                                                                                                                                                           
+ 5.                                                                    How to use a watch as a compass ( citizenwatch-global.com )                                         
+     316 points by jamesgill 11 hours ago | hide | 98 comments                                                                                                             
+                                                                                                                                                                           
+ 6.                                                                    The link between August birthdays and ADHD (2018) ( nytimes.com )                                   
+     55 points by dymk 4 hours ago | hide | 36 comments                                                                                                                    
+                                                                                                                                                                           
+ 7.                                                                    Inside the Proton ( quantamagazine.org )                                                            
+     472 points by shantanu_sharma 15 hours ago | hide | 175 comments                                                                                                      
+                                                                                                                                                                           
+ 8.                                                                    We are still early with the cloud ( erikbern.com )                                                  
+     85 points by omoindrot 6 hours ago | hide | 43 comments                                                                                                               
+                                                                                                                                                                           
+ 9.                                                                    Wait vs. Interrupt Culture ( benjaminrosshoffman.com )                                              
+     180 points by cbracketdash 10 hours ago | hide | 150 comments                                                                                                         
+                                                                                                                                                                           
+10.                                                                    Pig War (1859) ( wikipedia.org )                                                                    
+     16 points by samclemens 1 hour ago | hide | 6 comments                                                                                                                
+                                                                                                                                                                           
+11.                                                                    Stop Writing Dead Programs ( jackrusher.com )                                                       
+     22 points by aidenn0 2 hours ago | hide | 5 comments                                                                                                                  
+                                                                                                                                                                           
+12.                                                                    Kill Bill – Open-Source Subscription Billing and Payments Platform ( github.com/killbill )          
+     366 points by Whitespace 14 hours ago | hide | 138 comments                                                                                                           
+                                                                                                                                                                           
+13.                                                                    AntiX-22 Released ( antixlinux.com )                                                                
+     7 points by todsacerdoti 1 hour ago | hide | 4 comments                                                                                                               
+                                                                                                                                                                           
+14.                                                                    That Shouldn't Happen – UnreachableException in .NET 7 ( ab.bot )                                   
+     30 points by icey 4 hours ago | hide | 8 comments                                                                                                                     
+                                                                                                                                                                           
+15.                                                                    Replit Mobile App ( replit.com )                                                                    
+     318 points by todsacerdoti 14 hours ago | hide | 168 comments                                                                                                         
+                                                                                                                                                                           
+16.                                                                    Why modifying gravity doesn’t add up ( bigthink.com )                                               
+     55 points by raattgift 6 hours ago | hide | 46 comments                                                                                                               
+                                                                                                                                                                           
+17.                                                                    My PhD Genealogy ( stanford.edu )                                                                   
+     108 points by hkc 9 hours ago | hide | 40 comments                                                                                                                    
+                                                                                                                                                                           
+18.                                                                    The smash and grab of Kroger-Albertsons ( mattstoller.substack.com )                                
+     240 points by connor11528 14 hours ago | hide | 207 comments                                                                                                          
+                                                                                                                                                                           
+19.                                                                    Glamorous Toolkit: Moldable development environment ( gtoolkit.com )                                
+     65 points by homarp 7 hours ago | hide | 9 comments                                                                                                                   
+                                                                                                                                                                           
+20.                                                                    Pocket Casts Mobile Apps Are Now Open Source ( pocketcasts.com )                                    
+     100 points by jcgoette 4 hours ago | hide | 20 comments                                                                                                               
+                                                                                                                                                                           
+21.                                                                    Quantum Monism Could Save the Soul of Physics ( scientificamerican.com )                            
+     6 points by nyc111 1 hour ago | hide | discuss                                                                                                                        
+                                                                                                                                                                           
+22.                                                                    We're Drowning ( snarfed.org )                                                                      
+     24 points by mgrayson 5 hours ago | hide | discuss                                                                                                                    
+                                                                                                                                                                           
+23.                                                                    Why most published research findings are false (2005) ( plos.org )                                  
+     128 points by Jimmc414 11 hours ago | hide | 69 comments                                                                                                              
+                                                                                                                                                                           
+24.                                                                    The Rise of ‘Luxury Surveillance’ ( theatlantic.com )                                               
+     153 points by pseudolus 11 hours ago | hide | 146 comments                                                                                                            
+                                                                                                                                                                           
+25.                                                                    Ammonia combustion engines: latest research (2021) ( ammoniaenergy.org )                            
+     40 points by colinprince 7 hours ago | hide | 22 comments                                                                                                             
+                                                                                                                                                                           
+26.                                                                    A Geometrically Natural Uncomputable Function (2008) ( xorshammer.com )                             
+     33 points by yamrzou 7 hours ago | hide | 8 comments                                                                                                                  
+                                                                                                                                                                           
+27.                                                                    PostgresML is 8-40x faster than Python HTTP microservices ( postgresml.org )                        
+     53 points by redbell 4 hours ago | hide | 42 comments                                                                                                                 
+                                                                                                                                                                           
+28.                                                                    EasyList is in trouble and so are many ad blockers ( adguard.com )                                  
+     503 points by shscs911 10 hours ago | hide | 287 comments                                                                                                             
+                                                                                                                                                                           
+29.                                                                    NIH blocks access to genetics database if research enters “forbidden” territory ( city-journal.org )
+     97 points by Bostonian 4 hours ago | hide | 80 comments                                                                                                               
+                                                                                                                                                                           
+30.                                                                    Substack (YC W18) is hiring data analysts ( greenhouse.io )                                         
+     12 hours ago | hide                                                                                                                                                   
+                                                                                                                                                                           
+                                                                                                                                                                           
+     More                                                                                                                                                                  
+                                                                                                                                                                           
+                                                                                                                                                                           
+                                                                                                                                                                           
+                                                                                                                                                                           
+Applications are open for YC Winter 2023                                                                                                                                   
+Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC | Contact                                                                                                  
+                                                                                                                                                                           
+Search:                                                                                                                                                                    
