@@ -30,7 +30,7 @@ A feed of Japanese government data and news. See the [docs](#documentation) belo
 
 ## Publications
 
-- [METI Journal](https://journal.meti.go.jp/) ([RSS](https://meti-journal.jp/rss))
+- [METI Journal](https://journal.meti.go.jp/) ([RSS](https://journal.meti.go.jp/rss))
 - [Nomura Research](https://www.nri.com/jp/knowledge/blog/lst?showall=True)
 - [JRI Reports](https://www.jri.co.jp/report/year/) ([RSS](https://www.jri.co.jp/xml.jsp?id=12966))
 
@@ -59,7 +59,7 @@ Resources are stored in `list.csv`.
 
 `changedetection/changedetection.py` loads the resources which do not have RSS feeds into the datastructure of a (changedetection.io)[https://github.com/dgtlmoon/changedetection.io]instance.
 
- `launch.sh` runs all the above and launches the [FreshRSS] newsreader (https://github.com/FreshRSS/FreshRSS) and a (changedetection.io)[https://github.com/dgtlmoon/changedetection.io] instance.
+ `launch.sh` runs all the above and launches the [FreshRSS](https://github.com/FreshRSS/FreshRSS) newsreader and a (changedetection.io)[https://github.com/dgtlmoon/changedetection.io] instance.
 
 <!-- - TODO:
 - 1- Automate loading of rss feeds into fresh rss https://github.com/FreshRSS/FreshRSS/blob/edge/cli/README.md
