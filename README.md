@@ -1,6 +1,6 @@
-# open-data-japan
+# japan-feed
 
-A collection of useful sources of Japanese government data and news. See the [docs](#documentation) below for some helper scripts.
+A feed of Japanese government data and news. See the [docs](#documentation) below for some helper scripts.
 
 ## Data portals
 
@@ -62,8 +62,7 @@ Resources are stored in `list.csv`.
  `launch.sh` runs all the above and launches the [FreshRSS] newsreader (https://github.com/FreshRSS/FreshRSS) and a (changedetection.io)[https://github.com/dgtlmoon/changedetection.io] instance.
 
 <!-- - TODO:
-- 1-- Load rss feeds into fresh rss https://github.com/FreshRSS/FreshRSS/blob/edge/cli/README.md
-- 2- Make a script that simultaneously launches change-detector and freshrss
+- 1- Automate loading of rss feeds into fresh rss https://github.com/FreshRSS/FreshRSS/blob/edge/cli/README.md
 - 3- Switch change-detector to docker version 
 - 4- Launch change-detector and freshrss simultaneously with docker compose
 - 5- Split the sites between those with an rss feed and those without. For those without, generate rss feed with change-detector. Then load all into freshrss. 
