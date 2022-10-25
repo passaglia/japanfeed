@@ -15,7 +15,7 @@
 <outline text="Ministry of Finance" type="rss" xmlUrl="https://www.mof.go.jp/news.rss" htmlUrl="https://www.mof.go.jp" description=""/>
 </outline>
 <outline text="Publication">
-<outline text="METI Journal" type="rss" xmlUrl="https://meti-journal.jp/rss" htmlUrl="https://journal.meti.go.jp/" description=""/>
+<outline text="METI Journal" type="rss" xmlUrl="https://journal.meti.go.jp/rss" htmlUrl="https://journal.meti.go.jp/" description=""/>
 <outline text="JRI Reports" type="rss" xmlUrl="https://www.jri.co.jp/xml.jsp?id=12966" htmlUrl="https://www.jri.co.jp/report/year/" description=""/>
 </outline>
 		
