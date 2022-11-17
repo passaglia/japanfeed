@@ -1,4 +1,4 @@
-# japan-feed
+# japanfeed
 
 A feed of Japanese government data and news. See the [docs](#documentation) below for some helper scripts.
 
